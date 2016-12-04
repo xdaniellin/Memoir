@@ -25,6 +25,9 @@
                                 <rect key="frame" x="113" y="569" width="149" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Complete onboarding"/>
+                                <connections>
+                                    <segue destination="M1h-wF-NGI" kind="presentation" id="Oxs-js-yys"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -33,6 +36,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I4J-BW-vsz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-97" y="-35"/>
+        </scene>
+        <!--Memoir-->
+        <scene sceneID="8en-yR-FH2">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Memoir" id="M1h-wF-NGI" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KhH-VO-qLW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="490" y="-36"/>
         </scene>
     </scenes>
 </document>

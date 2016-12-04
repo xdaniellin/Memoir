@@ -11,6 +11,8 @@
 		4AE143891DF39A4A00D07F7A /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE143881DF39A4A00D07F7A /* UIColorExtension.swift */; };
 		4AE1438B1DF39A4E00D07F7A /* UISetupExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1438A1DF39A4E00D07F7A /* UISetupExtension.swift */; };
 		4AE143921DF3A67500D07F7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AE143911DF3A67500D07F7A /* Images.xcassets */; };
+		4AE143931DF3ABB900D07F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEFAEC61A8283F8002B4D62 /* Main.storyboard */; };
+		4AE143951DF3AC6800D07F7A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4AE143941DF3AC6800D07F7A /* Info.plist */; };
 		8F75AE9D1C73E2A50083ADFB /* VuforiaSizzleReel_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8F75AE9C1C73E2A50083ADFB /* VuforiaSizzleReel_1.mp4 */; };
 		8F75AE9F1C73E36F0083ADFB /* VuforiaSizzleReel_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8F75AE9E1C73E36F0083ADFB /* VuforiaSizzleReel_2.mp4 */; };
 		D21B07EC1A1B4AA20041ECF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D21B07EB1A1B4AA20041ECF3 /* main.m */; };
@@ -88,7 +90,6 @@
 		FBE8C8D01A8A6EBE001E6858 /* VuforiaSizzleReel_1.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE8C8C21A8A6EBE001E6858 /* VuforiaSizzleReel_1.png */; };
 		FBE8C8D21A8A6EBE001E6858 /* VuforiaSizzleReel_2.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE8C8C41A8A6EBE001E6858 /* VuforiaSizzleReel_2.png */; };
 		FBE8C8D41A8A714E001E6858 /* VP.png in Resources */ = {isa = PBXBuildFile; fileRef = FBE8C8D31A8A714E001E6858 /* VP.png */; };
-		FBEFAEC81A8283F8002B4D62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEFAEC61A8283F8002B4D62 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -96,6 +97,7 @@
 		4AE143881DF39A4A00D07F7A /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		4AE1438A1DF39A4E00D07F7A /* UISetupExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISetupExtension.swift; sourceTree = "<group>"; };
 		4AE143911DF3A67500D07F7A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VideoPlayback/Images.xcassets; sourceTree = "<group>"; };
+		4AE143941DF3AC6800D07F7A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F75AE9C1C73E2A50083ADFB /* VuforiaSizzleReel_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = VuforiaSizzleReel_1.mp4; path = Resources/Assets/VideoPlayback/VuforiaSizzleReel_1.mp4; sourceTree = "<group>"; };
 		8F75AE9E1C73E36F0083ADFB /* VuforiaSizzleReel_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = VuforiaSizzleReel_2.mp4; path = Resources/Assets/VideoPlayback/VuforiaSizzleReel_2.mp4; sourceTree = "<group>"; };
 		D21B07E61A1B4AA20041ECF3 /* VidPlayback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidPlayback.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -391,6 +393,7 @@
 		4AE143871DF39A3900D07F7A /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
+				4AE143941DF3AC6800D07F7A /* Info.plist */,
 				4AE143881DF39A4A00D07F7A /* UIColorExtension.swift */,
 				4AE1438A1DF39A4E00D07F7A /* UISetupExtension.swift */,
 			);
@@ -1070,7 +1073,6 @@
 			files = (
 				EAADA63B1DD538F1007DFB2C /* 18_dl_fan.mp4 in Resources */,
 				EAEFA7DA1DE691C200D57248 /* idktest2.jpg in Resources */,
-				FBEFAEC81A8283F8002B4D62 /* Main.storyboard in Resources */,
 				EA63690B1DE155D0005E6B87 /* codepath_dog.mp4 in Resources */,
 				EAADA63F1DD5525F007DFB2C /* CodePath.xml in Resources */,
 				FBE8C8D01A8A6EBE001E6858 /* VuforiaSizzleReel_1.png in Resources */,
@@ -1086,6 +1088,7 @@
 				4AE143921DF3A67500D07F7A /* Images.xcassets in Resources */,
 				8F75AE9F1C73E36F0083ADFB /* VuforiaSizzleReel_2.mp4 in Resources */,
 				FBE8C8C71A8A6EBE001E6858 /* icon_play.png in Resources */,
+				4AE143931DF3ABB900D07F7A /* Main.storyboard in Resources */,
 				FBE8C8D41A8A714E001E6858 /* VP.png in Resources */,
 				FBE8C8C51A8A6EBE001E6858 /* icon_error.png in Resources */,
 				EA84410B1DF390010013C699 /* Profile.storyboard in Resources */,
@@ -1106,6 +1109,7 @@
 				FBE8C8CD1A8A6EBE001E6858 /* StonesAndChips.xml in Resources */,
 				FBE8C8C81A8A6EBE001E6858 /* start_large_press.png in Resources */,
 				FBE8C8CE1A8A6EBE001E6858 /* VP_about.html in Resources */,
+				4AE143951DF3AC6800D07F7A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

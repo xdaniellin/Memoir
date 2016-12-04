@@ -13,7 +13,7 @@
         <!--Test View Controller-->
         <scene sceneID="9rR-2P-ecQ">
             <objects>
-                <viewController storyboardIdentifier="oh" id="qBN-wR-bxx" customClass="TestViewController" customModule="VidPlayback" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Main" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qBN-wR-bxx" customClass="TestViewController" customModule="VidPlayback" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="I2s-Hg-JDF"/>
                         <viewControllerLayoutGuide type="bottom" id="5Qw-3w-Pw6"/>
@@ -59,7 +59,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="icon_dl_default"/>
                                         <connections>
-                                            <segue destination="5UC-Xv-lZt" kind="modal" id="7VY-zp-W2O"/>
+                                            <segue destination="5UC-Xv-lZt" kind="modal" identifier="" id="7VY-zp-W2O"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -90,12 +90,12 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="327.5" y="-608.5"/>
+            <point key="canvasLocation" x="422" y="-611"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="2dX-rt-xiI">
             <objects>
-                <viewController storyboardIdentifier="galleryStoryboard" id="5UC-Xv-lZt" customClass="menuViewController" customModule="VidPlayback" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="5UC-Xv-lZt" customClass="menuViewController" customModule="VidPlayback" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hva-0P-l0y"/>
                         <viewControllerLayoutGuide type="bottom" id="Hc3-Zr-C7H"/>
@@ -115,13 +115,89 @@
                                     <action selector="onXButtonTapped:" destination="5UC-Xv-lZt" eventType="touchUpInside" id="NX7-yb-QyV"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cg5-GM-f62">
+                                <rect key="frame" x="43" y="271" width="287" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.33257378472222221" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Existing memoir"/>
+                                <connections>
+                                    <segue destination="ETX-G2-fbn" kind="modal" id="Rxn-Em-okT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2b1-Bc-cIz">
+                                <rect key="frame" x="54" y="159" width="287" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.33257378469999999" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Create memoir"/>
+                                <connections>
+                                    <segue destination="1As-qy-6Od" kind="modal" id="vo8-sG-1qx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uay-Dq-VYk">
+                                <rect key="frame" x="44" y="72" width="287" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.33257378469999999" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Profile page"/>
+                                <connections>
+                                    <segue destination="ctG-vc-5Hb" kind="modal" id="IJI-mG-62B"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6sw-Ek-xaG">
+                                <rect key="frame" x="88" y="20" width="199" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.33257378469999999" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Show onboarding"/>
+                                <connections>
+                                    <segue destination="vff-5L-2hg" kind="modal" id="j2s-6N-mzl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6nT-NP-w23" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="865" y="-609"/>
+            <point key="canvasLocation" x="858" y="-612"/>
+        </scene>
+        <!--Memoir-->
+        <scene sceneID="k9W-WK-GuG">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Memoir" id="ETX-G2-fbn" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ryb-nK-RDL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1289" y="-701"/>
+        </scene>
+        <!--CreateMemoir-->
+        <scene sceneID="dCy-QU-JTs">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CreateMemoir" id="1As-qy-6Od" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Jr-MG-1rO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1309" y="-637"/>
+        </scene>
+        <!--Memoir-->
+        <scene sceneID="YBt-OT-0dK">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Memoir" id="EDs-yZ-WNE" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n0c-bx-QH5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1289" y="-561"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="1yx-1x-pz1">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Profile" id="ctG-vc-5Hb" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fo4-Jf-BQo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1286" y="-833"/>
+        </scene>
+        <!--Onboarding-->
+        <scene sceneID="Uky-78-Ydd">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Onboarding" id="vff-5L-2hg" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ryk-wC-gwX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1302" y="-762"/>
         </scene>
         <!--Video Playback View Controller-->
         <scene sceneID="r9O-MZ-2uJ">
@@ -239,9 +315,9 @@
         <!--Navigation Controller-->
         <scene sceneID="5Ss-3L-6hR">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="nps-Rp-zsz" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" navigationBarHidden="YES" id="nps-Rp-zsz" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="ClN-q6-yBs">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ClN-q6-yBs">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -252,7 +328,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OfQ-vV-M00" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-142" y="-609"/>
+            <point key="canvasLocation" x="-24" y="-612"/>
         </scene>
     </scenes>
     <resources>
