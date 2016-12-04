@@ -61,9 +61,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="icon_dl_default"/>
                                         <connections>
-                                            <action selector="buttonTouchDown:" destination="qBN-wR-bxx" eventType="touchDown" id="qEW-io-TwJ"/>
-                                            <action selector="buttonTouchUp:" destination="qBN-wR-bxx" eventType="touchUpInside" id="FtT-If-ESF"/>
-                                            <segue destination="4rV-58-aR4" kind="modal" id="Ehj-9i-KLR"/>
+                                            <segue destination="5UC-Xv-lZt" kind="modal" id="cn3-kz-p4U"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -121,6 +119,38 @@
                                     <segue destination="qBN-wR-bxx" kind="modal" id="qgV-jo-KyI"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5mr-nA-Olc">
+                                <rect key="frame" x="188" y="92" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="PROFILE"/>
+                                <connections>
+                                    <segue destination="cKX-PT-hXI" kind="modal" id="eY5-Ii-msu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V6X-Hv-0JT">
+                                <rect key="frame" x="188" y="200" width="133" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="CREATEMEMOIR"/>
+                                <connections>
+                                    <segue destination="AsD-nF-xgk" kind="modal" id="Pbt-Lx-rpf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gIv-Af-K4W">
+                                <rect key="frame" x="188" y="271" width="139" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="MEMOIR"/>
+                                <connections>
+                                    <segue destination="kdt-d8-53q" kind="modal" id="hFH-oe-bD4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xMe-Nc-eNe">
+                                <rect key="frame" x="188" y="377" width="120" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="ONBOARDING"/>
+                                <connections>
+                                    <segue destination="4Vx-GE-flB" kind="modal" id="Gns-uD-DuW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -128,6 +158,38 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6nT-NP-w23" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1013.5" y="-601.5"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="sOL-fn-GkL">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Profile" id="cKX-PT-hXI" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="chd-FO-Bp4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1440" y="-845"/>
+        </scene>
+        <!--CreateMemoir-->
+        <scene sceneID="OQn-a1-wQA">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CreateMemoir" id="AsD-nF-xgk" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZNU-dw-8XX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1446" y="-735"/>
+        </scene>
+        <!--Memoir-->
+        <scene sceneID="Bwc-zZ-JMO">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Memoir" id="kdt-d8-53q" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ie5-nx-R48" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1440" y="-631"/>
+        </scene>
+        <!--Onboarding-->
+        <scene sceneID="pqz-39-aii">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Onboarding" id="4Vx-GE-flB" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EaI-Dc-R2H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1446" y="-456"/>
         </scene>
         <!--Video Playback View Controller-->
         <scene sceneID="r9O-MZ-2uJ">
@@ -242,16 +304,6 @@
             </objects>
             <point key="canvasLocation" x="552" y="336"/>
         </scene>
-        <!--Memoir-->
-        <scene sceneID="eRN-4j-G4i">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Memoir" id="4rV-58-aR4" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="TxQ-jx-ThT"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Lpc-eR-4Io" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="700" y="-355"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="5Ss-3L-6hR">
             <objects>
@@ -283,6 +335,7 @@
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="wzD-xo-guT"/>
+        <segue reference="cn3-kz-p4U"/>
+        <segue reference="qgV-jo-KyI"/>
     </inferredMetricsTieBreakers>
 </document>
