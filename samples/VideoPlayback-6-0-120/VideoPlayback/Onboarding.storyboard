@@ -25,9 +25,6 @@
                                 <rect key="frame" x="113" y="569" width="149" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Complete onboarding"/>
-                                <connections>
-                                    <segue destination="OsX-lq-6YW" kind="presentation" id="ClP-oi-VEj"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -36,14 +33,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I4J-BW-vsz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-97" y="-35"/>
-        </scene>
-        <!--Main-->
-        <scene sceneID="gfW-nG-DUz">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Main" id="OsX-lq-6YW" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3gR-qq-jda" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="398" y="-36"/>
         </scene>
     </scenes>
 </document>

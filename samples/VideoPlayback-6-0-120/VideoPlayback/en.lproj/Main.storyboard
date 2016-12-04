@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="nps-Rp-zsz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="nps-Rp-zsz">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -29,9 +30,6 @@
                                         <rect key="frame" x="228" y="568" width="40" height="40"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="icons"/>
-                                        <connections>
-                                            <segue destination="5UC-Xv-lZt" kind="modal" id="PKN-jh-NBU"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -61,9 +59,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="icon_dl_default"/>
                                         <connections>
-                                            <action selector="buttonTouchDown:" destination="qBN-wR-bxx" eventType="touchDown" id="qEW-io-TwJ"/>
-                                            <action selector="buttonTouchUp:" destination="qBN-wR-bxx" eventType="touchUpInside" id="FtT-If-ESF"/>
-                                            <segue destination="4rV-58-aR4" kind="modal" id="Ehj-9i-KLR"/>
+                                            <segue destination="5UC-Xv-lZt" kind="modal" id="7VY-zp-W2O"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -80,7 +76,6 @@
                         <outlet property="contentView" destination="HbQ-db-JL1" id="qFU-8D-Neg"/>
                         <outlet property="holdingBox" destination="xwL-sK-9OU" id="2UF-Um-tAK"/>
                         <outlet property="main_label" destination="oMr-3a-ARN" id="w5e-MC-Wi2"/>
-                        <outlet property="ui_button" destination="2tJ-eS-GVV" id="7Kw-sl-kHh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jSS-b5-wso" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -100,7 +95,7 @@
         <!--Menu View Controller-->
         <scene sceneID="2dX-rt-xiI">
             <objects>
-                <viewController id="5UC-Xv-lZt" customClass="menuViewController" customModule="VidPlayback" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="galleryStoryboard" id="5UC-Xv-lZt" customClass="menuViewController" customModule="VidPlayback" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hva-0P-l0y"/>
                         <viewControllerLayoutGuide type="bottom" id="Hc3-Zr-C7H"/>
@@ -117,8 +112,7 @@
                                 <rect key="frame" x="-1" y="3" width="63" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="didTapCloseButton:" destination="5UC-Xv-lZt" eventType="touchUpInside" id="z6O-Ep-xQn"/>
-                                    <segue destination="qBN-wR-bxx" kind="modal" id="qgV-jo-KyI"/>
+                                    <action selector="onXButtonTapped:" destination="5UC-Xv-lZt" eventType="touchUpInside" id="NX7-yb-QyV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -127,7 +121,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6nT-NP-w23" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1013.5" y="-601.5"/>
+            <point key="canvasLocation" x="865" y="-609"/>
         </scene>
         <!--Video Playback View Controller-->
         <scene sceneID="r9O-MZ-2uJ">
@@ -164,7 +158,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6I4-qm-WXE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="154.5" y="157.5"/>
+            <point key="canvasLocation" x="84" y="336"/>
         </scene>
         <!--Sample Menu-->
         <scene sceneID="ncB-vd-jff">
@@ -242,16 +236,6 @@
             </objects>
             <point key="canvasLocation" x="552" y="336"/>
         </scene>
-        <!--Memoir-->
-        <scene sceneID="eRN-4j-G4i">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Memoir" id="4rV-58-aR4" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="TxQ-jx-ThT"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Lpc-eR-4Io" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="700" y="-355"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="5Ss-3L-6hR">
             <objects>
@@ -268,7 +252,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OfQ-vV-M00" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-259.5" y="-608.5"/>
+            <point key="canvasLocation" x="-142" y="-609"/>
         </scene>
     </scenes>
     <resources>
@@ -282,7 +266,4 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
-    <inferredMetricsTieBreakers>
-        <segue reference="wzD-xo-guT"/>
-    </inferredMetricsTieBreakers>
 </document>

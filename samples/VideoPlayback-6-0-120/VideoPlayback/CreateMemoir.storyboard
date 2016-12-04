@@ -12,7 +12,7 @@
         <!--Choose trigger photo-->
         <scene sceneID="pyX-eL-A8T">
             <objects>
-                <viewController id="t49-p1-gIC" customClass="TriggerViewController" customModule="memoire_codepathProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="t49-p1-gIC" customClass="TriggerViewController" customModule="VidPlayback" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="t7v-2R-Ycd"/>
                         <viewControllerLayoutGuide type="bottom" id="SIs-uT-AUs"/>
@@ -53,7 +53,7 @@
         <!--Add videos-->
         <scene sceneID="jbD-nW-AsY">
             <objects>
-                <viewController id="leB-uU-pUi" customClass="VideoViewController" customModule="memoire_codepathProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="leB-uU-pUi" customClass="VideoViewController" customModule="VidPlayback" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="h7l-Jw-iq9"/>
                         <viewControllerLayoutGuide type="bottom" id="YdE-It-JnS"/>
@@ -85,13 +85,13 @@
             </objects>
             <point key="canvasLocation" x="1372" y="-28.335832083958024"/>
         </scene>
-        <!--GalleryStoryboard-->
+        <!--Profile-->
         <scene sceneID="duY-Jx-b3Q">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="GalleryStoryboard" storyboardName="Main" referencedIdentifier="GalleryStoryboard" id="lKV-Da-avq" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q2N-Uf-dgt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardIdentifier="GalleryStoryboard" storyboardName="Profile" id="lKV-Da-avq" sceneMemberID="viewController"/>
             </objects>
-            <point key="canvasLocation" x="1508.8" y="-30.584707646176913"/>
+            <point key="canvasLocation" x="1947" y="-29"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5rv-2x-LnL">

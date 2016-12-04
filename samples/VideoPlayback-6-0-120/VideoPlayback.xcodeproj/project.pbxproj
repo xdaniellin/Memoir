@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		18EB63541ACCAB8D00EF1C28 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18EB63531ACCAB8D00EF1C28 /* Localizable.strings */; };
+		4AE143891DF39A4A00D07F7A /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE143881DF39A4A00D07F7A /* UIColorExtension.swift */; };
+		4AE1438B1DF39A4E00D07F7A /* UISetupExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1438A1DF39A4E00D07F7A /* UISetupExtension.swift */; };
 		8F75AE9D1C73E2A50083ADFB /* VuforiaSizzleReel_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8F75AE9C1C73E2A50083ADFB /* VuforiaSizzleReel_1.mp4 */; };
 		8F75AE9F1C73E36F0083ADFB /* VuforiaSizzleReel_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8F75AE9E1C73E36F0083ADFB /* VuforiaSizzleReel_2.mp4 */; };
 		D21B07EC1A1B4AA20041ECF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D21B07EB1A1B4AA20041ECF3 /* main.m */; };
@@ -91,6 +93,8 @@
 
 /* Begin PBXFileReference section */
 		18EB63531ACCAB8D00EF1C28 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		4AE143881DF39A4A00D07F7A /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		4AE1438A1DF39A4E00D07F7A /* UISetupExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISetupExtension.swift; sourceTree = "<group>"; };
 		8F75AE9C1C73E2A50083ADFB /* VuforiaSizzleReel_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = VuforiaSizzleReel_1.mp4; path = Resources/Assets/VideoPlayback/VuforiaSizzleReel_1.mp4; sourceTree = "<group>"; };
 		8F75AE9E1C73E36F0083ADFB /* VuforiaSizzleReel_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = VuforiaSizzleReel_2.mp4; path = Resources/Assets/VideoPlayback/VuforiaSizzleReel_2.mp4; sourceTree = "<group>"; };
 		D21B07E61A1B4AA20041ECF3 /* VidPlayback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidPlayback.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -323,7 +327,7 @@
 		EA84410D1DF390170013C699 /* Bitter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bitter-Bold.ttf"; sourceTree = "<group>"; };
 		EA84410E1DF390170013C699 /* Bitter-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bitter-Italic.ttf"; sourceTree = "<group>"; };
 		EA84410F1DF390170013C699 /* Bitter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bitter-Regular.ttf"; sourceTree = "<group>"; };
-		EA96A0C21DF33CA6001A47BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA96A0C21DF33CA6001A47BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VideoPlayback/Images.xcassets; sourceTree = "<group>"; };
 		EAA193AA1DE694C500495ECC /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
 		EAADA63A1DD538A8007DFB2C /* 18_dl_fan.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 18_dl_fan.mp4; path = Resources/Assets/VideoPlayback/18_dl_fan.mp4; sourceTree = "<group>"; };
 		EAADA63C1DD5525F007DFB2C /* CodePath.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = CodePath.dat; path = Resources/Assets/VideoPlayback/CodePath.dat; sourceTree = "<group>"; };
@@ -384,13 +388,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4AE143871DF39A3900D07F7A /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				4AE143881DF39A4A00D07F7A /* UIColorExtension.swift */,
+				4AE1438A1DF39A4E00D07F7A /* UISetupExtension.swift */,
+			);
+			name = "Supporting files";
+			path = VideoPlayback;
+			sourceTree = "<group>";
+		};
+		4AE1438E1DF39D2D00D07F7A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EA84410D1DF390170013C699 /* Bitter-Bold.ttf */,
+				EA84410E1DF390170013C699 /* Bitter-Italic.ttf */,
+				EA84410F1DF390170013C699 /* Bitter-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		D21B07DD1A1B4AA10041ECF3 = {
 			isa = PBXGroup;
 			children = (
+				EA96A0C21DF33CA6001A47BD /* Images.xcassets */,
 				EAEC1BDB1DF38E7E00704819 /* Samihah */,
 				EAEC1BDA1DF38E7700704819 /* Nicholas */,
 				EAEC1BDC1DF38E8C00704819 /* Daniel */,
 				D21B07E71A1B4AA20041ECF3 /* Products */,
+				4AE143871DF39A3900D07F7A /* Supporting files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -408,7 +434,6 @@
 				D21B08111A1B4C500041ECF3 /* Classes */,
 				D21B08151A1B4D2A0041ECF3 /* Resources */,
 				D21B087B1A1B6C710041ECF3 /* Frameworks */,
-				EA96A0C21DF33CA6001A47BD /* Images.xcassets */,
 				D21B07E91A1B4AA20041ECF3 /* Supporting Files */,
 			);
 			name = VideoPlayback;
@@ -932,6 +957,7 @@
 				EA8440F71DF38FF70013C699 /* MemoirViewController.swift */,
 				EA8440F81DF38FF70013C699 /* TriggerViewController.swift */,
 				EA8440F91DF38FF70013C699 /* VideoViewController.swift */,
+				4AE1438E1DF39D2D00D07F7A /* Fonts */,
 			);
 			name = Nicholas;
 			path = VideoPlayback;
@@ -960,9 +986,6 @@
 				EAA193AA1DE694C500495ECC /* menuViewController.swift */,
 				EA7FD16A1DDD7BD500150BFA /* TestViewController.swift */,
 				EA7FD1691DDD7BD400150BFA /* VideoPlayback-Bridging-Header.h */,
-				EA84410D1DF390170013C699 /* Bitter-Bold.ttf */,
-				EA84410E1DF390170013C699 /* Bitter-Italic.ttf */,
-				EA84410F1DF390170013C699 /* Bitter-Regular.ttf */,
 			);
 			name = Daniel;
 			path = VideoPlayback;
@@ -1010,7 +1033,7 @@
 				TargetAttributes = {
 					D21B07E51A1B4AA20041ECF3 = {
 						CreatedOnToolsVersion = 6.1;
-						DevelopmentTeam = 529Q78MB7D;
+						DevelopmentTeam = 7PX37ZY9M9;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
@@ -1094,6 +1117,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA8440FC1DF38FF70013C699 /* MemoirViewController.swift in Sources */,
+				4AE1438B1DF39A4E00D07F7A /* UISetupExtension.swift in Sources */,
 				EAD6F9BD1DED2204002B999C /* testDelegate.mm in Sources */,
 				D21B085E1A1B698A0041ECF3 /* SampleApplicationUtils.cpp in Sources */,
 				EA8441081DF390010013C699 /* Onboarding1ViewController.swift in Sources */,
@@ -1115,6 +1139,7 @@
 				D22944751AAF2249004CCE5D /* VideoPlaybackViewController.mm in Sources */,
 				EA84410A1DF390010013C699 /* Onboarding3ViewController.swift in Sources */,
 				D21B085C1A1B698A0041ECF3 /* SampleApplicationSession.mm in Sources */,
+				4AE143891DF39A4A00D07F7A /* UIColorExtension.swift in Sources */,
 				D22944741AAF2249004CCE5D /* VideoPlaybackEAGLView.mm in Sources */,
 				EA8440FE1DF38FF70013C699 /* VideoViewController.swift in Sources */,
 				D21B085B1A1B698A0041ECF3 /* SampleApplication3DModel.m in Sources */,
@@ -1250,14 +1275,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 9;
-				DEVELOPMENT_TEAM = 529Q78MB7D;
+				DEVELOPMENT_TEAM = 7PX37ZY9M9;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = ../../build/include;
 				INFOPLIST_FILE = "VideoPlayback/VideoPlayback-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = ../../build/lib/arm;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vuforia.sample.VidPlayback.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicx.sample.VidPlayback.dev;
 				PRODUCT_NAME = VidPlayback;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "VideoPlayback/VideoPlayback-Bridging-Header.h";
@@ -1279,14 +1304,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 9;
-				DEVELOPMENT_TEAM = 529Q78MB7D;
+				DEVELOPMENT_TEAM = 7PX37ZY9M9;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = ../../build/include;
 				INFOPLIST_FILE = "VideoPlayback/VideoPlayback-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = ../../build/lib/arm;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vuforia.sample.VidPlayback.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nicx.sample.VidPlayback.dev;
 				PRODUCT_NAME = VideoPlayback;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "VideoPlayback/VideoPlayback-Bridging-Header.h";

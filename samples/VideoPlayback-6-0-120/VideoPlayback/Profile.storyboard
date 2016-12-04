@@ -12,7 +12,7 @@
         <!--Profile View Controller-->
         <scene sceneID="k5E-ip-nPP">
             <objects>
-                <viewController id="uE0-9O-MJQ" customClass="ProfileViewController" customModule="memoire_codepathProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="uE0-9O-MJQ" customClass="ProfileViewController" customModule="VidPlayback" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wed-JQ-fPB"/>
                         <viewControllerLayoutGuide type="bottom" id="yQA-n0-cJr"/>
@@ -32,9 +32,6 @@
                                 <rect key="frame" x="171" y="617" width="37" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Done"/>
-                                <connections>
-                                    <segue destination="Mgm-Ca-hRM" kind="presentation" id="XBL-fK-Cwr"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -43,14 +40,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V6d-kj-Tte" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="63" y="184"/>
-        </scene>
-        <!--GalleryStoryboard-->
-        <scene sceneID="fdt-GZ-P54">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="GalleryStoryboard" id="Mgm-Ca-hRM" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gLW-Pz-jyi" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="497" y="183"/>
         </scene>
     </scenes>
 </document>
