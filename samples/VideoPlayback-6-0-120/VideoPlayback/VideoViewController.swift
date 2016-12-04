@@ -10,13 +10,18 @@ import UIKit
 
 class VideoViewController: UIViewController {
     
+    @IBOutlet var videosCollectionView: UICollectionView!
     @IBOutlet weak var createButton: UIButton!
+    
+    
+    //Lifecycle methods:
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
     }
     
+    //UI methods:
     override func viewDidLayoutSubviews() {
         // Setup common UI elemennts:
         setUpUI()

@@ -32,6 +32,9 @@
                                 <rect key="frame" x="171" y="617" width="37" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Done"/>
+                                <connections>
+                                    <action selector="onDoneTapped:" destination="uE0-9O-MJQ" eventType="touchUpInside" id="Jgr-9G-YdQ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

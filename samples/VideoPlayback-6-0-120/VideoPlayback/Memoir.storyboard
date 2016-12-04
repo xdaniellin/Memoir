@@ -27,10 +27,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cpn-lW-Isd">
-                                <rect key="frame" x="16" y="28" width="146" height="30"/>
+                                <rect key="frame" x="16" y="27" width="77" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Bitter-Regular" family="Bitter" pointSize="17"/>
-                                <state key="normal" title="Back to Gallery"/>
+                                <state key="normal" title="Gallery"/>
+                                <connections>
+                                    <segue destination="4rL-p0-kvL" kind="presentation" id="Vhu-fg-p6O"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -42,6 +45,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bdz-Hg-uDR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-55.200000000000003" y="48.125937031484263"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="g2j-Oa-Rl0">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="4rL-p0-kvL" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oom-ce-8rf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="494" y="48"/>
         </scene>
     </scenes>
 </document>

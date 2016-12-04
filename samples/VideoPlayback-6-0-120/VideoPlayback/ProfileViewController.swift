@@ -21,5 +21,8 @@ class ProfileViewController: UIViewController {
         setUpUI()
     }
 
+    @IBAction func onDoneTapped(sender: AnyObject) {
+    dismiss(animated: true, completion: nil)
+    }
 
 }

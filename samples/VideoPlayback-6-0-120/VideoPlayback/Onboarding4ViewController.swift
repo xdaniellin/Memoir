@@ -16,6 +16,7 @@ class Onboarding4ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    //UI methods:
     override func viewDidLayoutSubviews() {
         // Setup common UI elemennts:
         setUpUI()
