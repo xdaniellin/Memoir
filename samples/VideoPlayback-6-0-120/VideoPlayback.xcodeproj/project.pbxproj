@@ -320,9 +320,6 @@
 		EA8441031DF390010013C699 /* Onboarding3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding3ViewController.swift; sourceTree = "<group>"; };
 		EA8441041DF390010013C699 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		EA8441051DF390010013C699 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		EA84410D1DF390170013C699 /* Bitter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bitter-Bold.ttf"; sourceTree = "<group>"; };
-		EA84410E1DF390170013C699 /* Bitter-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bitter-Italic.ttf"; sourceTree = "<group>"; };
-		EA84410F1DF390170013C699 /* Bitter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bitter-Regular.ttf"; sourceTree = "<group>"; };
 		EA96A0C21DF33CA6001A47BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EAA193AA1DE694C500495ECC /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
 		EAADA63A1DD538A8007DFB2C /* 18_dl_fan.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 18_dl_fan.mp4; path = Resources/Assets/VideoPlayback/18_dl_fan.mp4; sourceTree = "<group>"; };
@@ -960,9 +957,6 @@
 				EAA193AA1DE694C500495ECC /* menuViewController.swift */,
 				EA7FD16A1DDD7BD500150BFA /* TestViewController.swift */,
 				EA7FD1691DDD7BD400150BFA /* VideoPlayback-Bridging-Header.h */,
-				EA84410D1DF390170013C699 /* Bitter-Bold.ttf */,
-				EA84410E1DF390170013C699 /* Bitter-Italic.ttf */,
-				EA84410F1DF390170013C699 /* Bitter-Regular.ttf */,
 			);
 			name = Daniel;
 			path = VideoPlayback;

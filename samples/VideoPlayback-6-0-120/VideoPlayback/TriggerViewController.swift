@@ -20,10 +20,10 @@ class TriggerViewController: UIViewController {
 
     override func viewDidLayoutSubviews() {
         // Setup common UI elemennts:
-        setUpUI()
+        //setUpUI()
         // Setup button
-        nextButton.backgroundColor = UIColor.memoirBlue()
-        nextButton.layer.cornerRadius = 5
+        //nextButton.backgroundColor = UIColor.memoirBlue()
+        //nextButton.layer.cornerRadius = 5
     }
  
 }

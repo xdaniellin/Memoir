@@ -19,9 +19,9 @@ class VideoViewController: UIViewController {
     
     override func viewDidLayoutSubviews() {
         // Setup common UI elemennts:
-        setUpUI()
-        createButton.backgroundColor = UIColor.memoirBlue()
-        createButton.layer.cornerRadius = 5
+        //setUpUI()
+        //createButton.backgroundColor = UIColor.memoirBlue()
+        //createButton.layer.cornerRadius = 5
     }
     
     

@@ -21,7 +21,7 @@ class MemoirViewController: UIViewController {
     
     override func viewDidLayoutSubviews() {
         // Setup common UI elemennts:
-        setUpUI()
+        //setUpUI()
     }
     
 }

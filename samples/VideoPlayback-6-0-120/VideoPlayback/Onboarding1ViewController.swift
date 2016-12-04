@@ -18,7 +18,7 @@ class Onboarding1ViewController: UIViewController {
 
     override func viewDidLayoutSubviews() {
         // Setup common UI elemennts:
-        setUpUI()
+        //setUpUI()
     }
 
 }

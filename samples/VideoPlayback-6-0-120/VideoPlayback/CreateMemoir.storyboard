@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DTC-q7-dAp">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DTC-q7-dAp">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -12,7 +12,7 @@
         <!--Choose trigger photo-->
         <scene sceneID="pyX-eL-A8T">
             <objects>
-                <viewController id="t49-p1-gIC" customClass="TriggerViewController" customModule="memoire_codepathProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="t49-p1-gIC" customClass="TriggerViewController" customModule="VidPlayback" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="t7v-2R-Ycd"/>
                         <viewControllerLayoutGuide type="bottom" id="SIs-uT-AUs"/>
@@ -53,7 +53,7 @@
         <!--Add videos-->
         <scene sceneID="jbD-nW-AsY">
             <objects>
-                <viewController id="leB-uU-pUi" customClass="VideoViewController" customModule="memoire_codepathProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="leB-uU-pUi" customClass="VideoViewController" customModule="VidPlayback" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="h7l-Jw-iq9"/>
                         <viewControllerLayoutGuide type="bottom" id="YdE-It-JnS"/>
@@ -69,9 +69,6 @@
                                 <state key="normal" title="COMPLETE MEMOIR">
                                     <color key="titleColor" red="0.99679845571517944" green="0.99203735589981079" blue="0.99196451902389526" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <segue destination="lKV-Da-avq" kind="presentation" id="dhf-O5-qE3"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -85,20 +82,12 @@
             </objects>
             <point key="canvasLocation" x="1372" y="-28.335832083958024"/>
         </scene>
-        <!--GalleryStoryboard-->
-        <scene sceneID="duY-Jx-b3Q">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="GalleryStoryboard" storyboardName="Main" referencedIdentifier="GalleryStoryboard" id="lKV-Da-avq" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="q2N-Uf-dgt" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1508.8" y="-30.584707646176913"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="5rv-2x-LnL">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DTC-q7-dAp" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="wV2-EB-zyg">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wV2-EB-zyg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
