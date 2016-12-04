@@ -10,6 +10,7 @@
 		18EB63541ACCAB8D00EF1C28 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18EB63531ACCAB8D00EF1C28 /* Localizable.strings */; };
 		4AE143891DF39A4A00D07F7A /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE143881DF39A4A00D07F7A /* UIColorExtension.swift */; };
 		4AE1438B1DF39A4E00D07F7A /* UISetupExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE1438A1DF39A4E00D07F7A /* UISetupExtension.swift */; };
+		4AE143921DF3A67500D07F7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AE143911DF3A67500D07F7A /* Images.xcassets */; };
 		8F75AE9D1C73E2A50083ADFB /* VuforiaSizzleReel_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8F75AE9C1C73E2A50083ADFB /* VuforiaSizzleReel_1.mp4 */; };
 		8F75AE9F1C73E36F0083ADFB /* VuforiaSizzleReel_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8F75AE9E1C73E36F0083ADFB /* VuforiaSizzleReel_2.mp4 */; };
 		D21B07EC1A1B4AA20041ECF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D21B07EB1A1B4AA20041ECF3 /* main.m */; };
@@ -60,7 +61,6 @@
 		EA84410A1DF390010013C699 /* Onboarding3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8441031DF390010013C699 /* Onboarding3ViewController.swift */; };
 		EA84410B1DF390010013C699 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8441041DF390010013C699 /* Profile.storyboard */; };
 		EA84410C1DF390010013C699 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8441051DF390010013C699 /* ProfileViewController.swift */; };
-		EA96A0C31DF33CA6001A47BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA96A0C21DF33CA6001A47BD /* Images.xcassets */; };
 		EAA193AB1DE694C500495ECC /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA193AA1DE694C500495ECC /* menuViewController.swift */; };
 		EAADA63B1DD538F1007DFB2C /* 18_dl_fan.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EAADA63A1DD538A8007DFB2C /* 18_dl_fan.mp4 */; };
 		EAADA63E1DD5525F007DFB2C /* CodePath.dat in Resources */ = {isa = PBXBuildFile; fileRef = EAADA63C1DD5525F007DFB2C /* CodePath.dat */; };
@@ -95,6 +95,7 @@
 		18EB63531ACCAB8D00EF1C28 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		4AE143881DF39A4A00D07F7A /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		4AE1438A1DF39A4E00D07F7A /* UISetupExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISetupExtension.swift; sourceTree = "<group>"; };
+		4AE143911DF3A67500D07F7A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VideoPlayback/Images.xcassets; sourceTree = "<group>"; };
 		8F75AE9C1C73E2A50083ADFB /* VuforiaSizzleReel_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = VuforiaSizzleReel_1.mp4; path = Resources/Assets/VideoPlayback/VuforiaSizzleReel_1.mp4; sourceTree = "<group>"; };
 		8F75AE9E1C73E36F0083ADFB /* VuforiaSizzleReel_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = VuforiaSizzleReel_2.mp4; path = Resources/Assets/VideoPlayback/VuforiaSizzleReel_2.mp4; sourceTree = "<group>"; };
 		D21B07E61A1B4AA20041ECF3 /* VidPlayback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidPlayback.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -327,7 +328,6 @@
 		EA84410D1DF390170013C699 /* Bitter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bitter-Bold.ttf"; sourceTree = "<group>"; };
 		EA84410E1DF390170013C699 /* Bitter-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bitter-Italic.ttf"; sourceTree = "<group>"; };
 		EA84410F1DF390170013C699 /* Bitter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bitter-Regular.ttf"; sourceTree = "<group>"; };
-		EA96A0C21DF33CA6001A47BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VideoPlayback/Images.xcassets; sourceTree = "<group>"; };
 		EAA193AA1DE694C500495ECC /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
 		EAADA63A1DD538A8007DFB2C /* 18_dl_fan.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 18_dl_fan.mp4; path = Resources/Assets/VideoPlayback/18_dl_fan.mp4; sourceTree = "<group>"; };
 		EAADA63C1DD5525F007DFB2C /* CodePath.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = CodePath.dat; path = Resources/Assets/VideoPlayback/CodePath.dat; sourceTree = "<group>"; };
@@ -411,7 +411,7 @@
 		D21B07DD1A1B4AA10041ECF3 = {
 			isa = PBXGroup;
 			children = (
-				EA96A0C21DF33CA6001A47BD /* Images.xcassets */,
+				4AE143911DF3A67500D07F7A /* Images.xcassets */,
 				EAEC1BDB1DF38E7E00704819 /* Samihah */,
 				EAEC1BDA1DF38E7700704819 /* Nicholas */,
 				EAEC1BDC1DF38E8C00704819 /* Daniel */,
@@ -1080,10 +1080,10 @@
 				D8223DC01D6CFC49006884AE /* Background.vertsh in Resources */,
 				FBE8C8C91A8A6EBE001E6858 /* start_large.png in Resources */,
 				EA8440FA1DF38FF70013C699 /* CreateMemoir.storyboard in Resources */,
-				EA96A0C31DF33CA6001A47BD /* Images.xcassets in Resources */,
 				EA8440FB1DF38FF70013C699 /* Memoir.storyboard in Resources */,
 				D21B08671A1B69A10041ECF3 /* Simple.fragsh in Resources */,
 				EACC6EAD1DE4060600C4C107 /* codepath_drunk.mp4 in Resources */,
+				4AE143921DF3A67500D07F7A /* Images.xcassets in Resources */,
 				8F75AE9F1C73E36F0083ADFB /* VuforiaSizzleReel_2.mp4 in Resources */,
 				FBE8C8C71A8A6EBE001E6858 /* icon_play.png in Resources */,
 				FBE8C8D41A8A714E001E6858 /* VP.png in Resources */,
