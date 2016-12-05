@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -180,17 +181,11 @@
                                         <state key="normal" title="Charlie's Memoirs">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
-                                        <connections>
-                                            <segue destination="Q6c-se-lUB" kind="modal" id="E5S-yj-B7e"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5mr-nA-Olc">
                                         <rect key="frame" x="142" y="31" width="91" height="91"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="CharlieProfile"/>
-                                        <connections>
-                                            <segue destination="ugn-DP-5SV" kind="modal" id="OW6-k5-xrS"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -277,7 +272,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Choose trigger photo" id="MwN-jL-4w6">
-                        <barButtonItem key="leftBarButtonItem" style="plain" systemItem="cancel" id="zY5-Ad-5eH">
+                        <barButtonItem key="leftBarButtonItem" image="dismiss" style="plain" id="zY5-Ad-5eH">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
                                 <action selector="onCancelTapped:" destination="cgw-fJ-HCu" id="reR-Jq-wo1"/>
@@ -355,7 +350,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add videos" id="jNk-66-suM">
-                        <barButtonItem key="leftBarButtonItem" image="arrowButton2" id="2XV-qN-e9W">
+                        <barButtonItem key="leftBarButtonItem" image="back" id="2XV-qN-e9W">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="onBackArrowTapped:" destination="xaQ-JR-iC3" id="2NO-nf-bgf"/>
@@ -392,7 +387,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="83"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1ZM-E8-Ynd" id="kLr-2N-KUb">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="82.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="98m-lk-c4m">
@@ -438,7 +433,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Invite collaborators" id="its-WB-60h">
-                        <barButtonItem key="leftBarButtonItem" image="arrowButton2" id="gkb-ST-2RU">
+                        <barButtonItem key="leftBarButtonItem" image="back" id="gkb-ST-2RU">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="onBackArrowTapped:" destination="zMl-LV-BL7" id="mAR-oR-Pju"/>
@@ -605,10 +600,10 @@
                             <tableViewSection headerTitle="Video Playback" id="evq-UC-fJn">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SampleMenuCell" id="YBa-JN-5Us">
-                                        <rect key="frame" x="0.0" y="55.5" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="56" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YBa-JN-5Us" id="hev-Yt-Lrj">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wlJ-tQ-Wp7">
@@ -626,10 +621,10 @@
                             <tableViewSection id="dkG-qr-Qr7">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SampleMenuCell" id="RTc-AY-B2m">
-                                        <rect key="frame" x="0.0" y="119.5" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="120" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RTc-AY-B2m" id="gEJ-K4-LFw">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Play Fullscreen" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0x-oR-e8d">
@@ -724,71 +719,15 @@
             </objects>
             <point key="canvasLocation" x="1319.5" y="204.5"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="m0N-pr-qK2">
-            <objects>
-                <viewController id="ugn-DP-5SV" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="ZUG-KX-cYU"/>
-                        <viewControllerLayoutGuide type="bottom" id="tLQ-1U-mJU"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="mnG-Np-4xC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="brB-la-i8q">
-                                <rect key="frame" x="207" y="487" width="102" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back to gallery"/>
-                                <connections>
-                                    <segue destination="uMw-yX-W6Q" kind="modal" id="FP0-N0-HiJ"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="z5F-me-RRS" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="714" y="-1451"/>
-        </scene>
-        <!--Memoir View Controller-->
-        <scene sceneID="fwQ-mX-q2J">
-            <objects>
-                <viewController id="Q6c-se-lUB" customClass="MemoirViewController" customModule="VidPlayback" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="7cv-Ge-HUS"/>
-                        <viewControllerLayoutGuide type="bottom" id="3kF-8Q-pHd"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="RaQ-ch-qGJ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="21c-hy-xCd">
-                                <rect key="frame" x="136" y="460" width="102" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Back to gallery"/>
-                                <connections>
-                                    <segue destination="uMw-yX-W6Q" kind="modal" id="8Ep-R1-G9r"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="T3O-PR-y5v"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pUs-Nl-bs3" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1320" y="-1450"/>
-        </scene>
     </scenes>
     <resources>
         <image name="CharlieProfile" width="270" height="270"/>
         <image name="Dummy2" width="960" height="539"/>
         <image name="VP.png" width="586" height="944"/>
-        <image name="arrowButton2" width="46" height="46"/>
+        <image name="back" width="17" height="17"/>
         <image name="blankAvatar" width="46" height="46"/>
         <image name="cameraIcon" width="46" height="46"/>
+        <image name="dismiss" width="17" height="17"/>
         <image name="editIcon" width="46" height="46"/>
         <image name="gradient" width="233" height="33"/>
         <image name="icon_dl_default" width="46" height="46"/>
