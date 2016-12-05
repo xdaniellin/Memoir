@@ -972,7 +972,6 @@
 				EA8441021DF390010013C699 /* Onboarding2ViewController.swift */,
 				EA8441031DF390010013C699 /* Onboarding3ViewController.swift */,
 				EA8441041DF390010013C699 /* Profile.storyboard */,
-				EA8441051DF390010013C699 /* ProfileViewController.swift */,
 				EA8440F51DF38FF70013C699 /* CreateMemoir.storyboard */,
 				EA8440F61DF38FF70013C699 /* Memoir.storyboard */,
 				EA8440F71DF38FF70013C699 /* MemoirViewController.swift */,
@@ -997,6 +996,7 @@
 				4A9D79461DF4CBE6003DADC1 /* GalleryTableViewCell.swift */,
 				EAA193AA1DE694C500495ECC /* menuViewController.swift */,
 				EA7FD16A1DDD7BD500150BFA /* TestViewController.swift */,
+				EA8441051DF390010013C699 /* ProfileViewController.swift */,
 				EA7FD1691DDD7BD400150BFA /* VideoPlayback-Bridging-Header.h */,
 			);
 			name = Memoir;
