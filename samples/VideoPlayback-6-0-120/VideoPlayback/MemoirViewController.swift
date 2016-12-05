@@ -28,7 +28,8 @@ class MemoirViewController: UIViewController,UICollectionViewDataSource, UIColle
     }
     
     override func viewDidLayoutSubviews() {
-      
+      memoirCollectionView.backgroundColor = UIColor.memoirBlack()
+        
         // Setup navigation bar colors etc
         navigationController?.navigationBar.barTintColor = UIColor.memoirBlue()
         navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]

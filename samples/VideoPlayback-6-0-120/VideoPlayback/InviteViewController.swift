@@ -23,6 +23,7 @@ class InviteViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     override func viewDidLayoutSubviews() {
+        contactsTableView.backgroundColor = UIColor.memoirBlack()
         
         // Setup navigation bar colors etc
         navigationController?.navigationBar.barTintColor = UIColor.memoirBlue()

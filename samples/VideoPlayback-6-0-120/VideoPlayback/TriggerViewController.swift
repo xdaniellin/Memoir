@@ -30,6 +30,8 @@ class TriggerViewController: UIViewController, UICollectionViewDataSource, UICol
     }
     
     override func viewDidLayoutSubviews() {
+        triggerCollectionView.backgroundColor = UIColor.memoirBlack()
+        
         // Show navigation bar
         navigationController?.isNavigationBarHidden = false
         
