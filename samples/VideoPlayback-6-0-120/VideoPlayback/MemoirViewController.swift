@@ -23,7 +23,8 @@ class MemoirViewController: UIViewController,UICollectionViewDataSource, UIColle
         memoirCollectionView.dataSource = self
         memoirImages = [UIImage(named:"Dummy1")!, UIImage(named:"Dummy2")!, UIImage(named:"Dummy3")!,UIImage(named:"Dummy4")!,UIImage(named:"Dummy5")!,UIImage(named:"Dummy6")!,UIImage(named:"Dummy7")!]
         
-        // Do any additional setup after loading the view.
+        collectionViewLayout = CustomImageFlowLayout()
+        memoirCollectionView.collectionViewLayout = collectionViewLayout
         
     }
     

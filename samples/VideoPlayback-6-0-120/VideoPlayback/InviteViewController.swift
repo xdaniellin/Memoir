@@ -45,6 +45,16 @@ class InviteViewController: UIViewController, UITableViewDelegate, UITableViewDa
         let cell = tableView.dequeueReusableCell(withIdentifier: "contactsCell") as! ContactsTableViewCell
     
         cell.contactLabel?.text = contactsArray[indexPath.row]
+        
+        if cell.contactLabel.text == "Nicholas Naudé" {
+            cell.contactImage.image = UIImage(named: "Nic")
+        } else if cell.contactLabel.text == "Daniel Lin" {
+            cell.contactImage.image = UIImage(named: "Daniel")
+        } else if cell.contactLabel.text == "Samihah" {
+        cell.contactImage.image = UIImage(named: "Samihah")
+        } else {
+        cell.contactImage.image = UIImage(named: "blankAvatar")
+        }
     
         cell.backgroundColor = UIColor.memoirBlack()
         return cell
