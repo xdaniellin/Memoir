@@ -21,11 +21,8 @@ class TriggerViewController: UIViewController, UICollectionViewDataSource, UICol
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.triggerCollectionView.allowsSelection = true
-        
+        // Do any additional setup after loading the view.
         triggerCollectionView.dataSource = self
-        triggerCollectionView.delegate = self
-        
         triggerImages = [UIImage(named: "Dummy1")!, UIImage(named: "Dummy2")!, UIImage(named: "Dummy3")!, UIImage(named: "Dummy4")!, UIImage(named: "Dummy5")!, UIImage(named: "Dummy6")!, UIImage(named: "Dummy7")!, UIImage(named: "Dummy8")!, UIImage(named: "Dummy9")!, UIImage(named: "Dummy10")!, UIImage(named: "Dummy11")!, UIImage(named: "Dummy12")!, UIImage(named: "Dummy13")!, UIImage(named: "Dummy14")!, UIImage(named: "Dummy15")!, UIImage(named: "Dummy16")!, UIImage(named: "Dummy17")!, UIImage(named: "Dummy18")!, UIImage(named: "Dummy19")!, UIImage(named: "Dummy20")!, UIImage(named: "Dummy21")!]
         
         collectionViewLayout = CustomImageFlowLayout()
@@ -33,8 +30,6 @@ class TriggerViewController: UIViewController, UICollectionViewDataSource, UICol
     }
     
     override func viewDidLayoutSubviews() {
-        triggerCollectionView.backgroundColor = UIColor.memoirBlack()
-        
         // Show navigation bar
         navigationController?.isNavigationBarHidden = false
         
@@ -75,20 +70,8 @@ class TriggerViewController: UIViewController, UICollectionViewDataSource, UICol
         return 1
     }
     
-    @IBAction func onCellTapped(_ sender: UITapGestureRecognizer) {
-        print("tapped")
-    }
     
-    // selectedTrigger and add it to the placeholder
-    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: IndexPath)
-    {
-        if collectionView.cellForItem(at: indexPath as IndexPath) != nil {
-            print(indexPath)
-            selectedTrigger.image = self.triggerImages[indexPath.item]
-        }
-    }
-    
-    private func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize
     {
         return CGSize(width: collectionView.frame.size.width/3.2, height: 100)
     }

@@ -23,14 +23,12 @@ class MemoirViewController: UIViewController,UICollectionViewDataSource, UIColle
         memoirCollectionView.dataSource = self
         memoirImages = [UIImage(named:"Dummy1")!, UIImage(named:"Dummy2")!, UIImage(named:"Dummy3")!,UIImage(named:"Dummy4")!,UIImage(named:"Dummy5")!,UIImage(named:"Dummy6")!,UIImage(named:"Dummy7")!]
         
-        collectionViewLayout = CustomImageFlowLayout()
-        memoirCollectionView.collectionViewLayout = collectionViewLayout
+        // Do any additional setup after loading the view.
         
     }
     
     override func viewDidLayoutSubviews() {
-      memoirCollectionView.backgroundColor = UIColor.memoirBlack()
-        
+      
         // Setup navigation bar colors etc
         navigationController?.navigationBar.barTintColor = UIColor.memoirBlue()
         navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]

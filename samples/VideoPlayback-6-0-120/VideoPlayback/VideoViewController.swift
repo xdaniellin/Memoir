@@ -31,9 +31,6 @@ class VideoViewController: UIViewController, UICollectionViewDataSource, UIColle
     
     
     override func viewDidLayoutSubviews() {
-        
-        videosCollectionView.backgroundColor = UIColor.memoirBlack()
-        
         // Setup navigation bar colors etc
         navigationController?.navigationBar.barTintColor = UIColor.memoirBlue()
         navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
