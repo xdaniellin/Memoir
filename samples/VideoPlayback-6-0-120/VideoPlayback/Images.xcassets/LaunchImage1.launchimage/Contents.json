@@ -1,10 +1,38 @@
 {
   "images" : [
     {
+      "orientation" : "portrait",
+      "idiom" : "iphone",
+      "filename" : "splash screen@2x-1.png",
+      "extent" : "full-screen",
+      "scale" : "1x"
+    },
+    {
+      "orientation" : "portrait",
+      "idiom" : "iphone",
+      "filename" : "splash screen.png",
+      "extent" : "full-screen",
+      "scale" : "2x"
+    },
+    {
+      "orientation" : "portrait",
+      "idiom" : "ipad",
+      "filename" : "splash screen@3x-4.png",
+      "extent" : "full-screen",
+      "scale" : "1x"
+    },
+    {
+      "orientation" : "portrait",
+      "idiom" : "ipad",
+      "filename" : "splash screen@3x-5.png",
+      "extent" : "full-screen",
+      "scale" : "2x"
+    },
+    {
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "736h",
-      "filename" : "Default-iPhone6plus-Portrait@3x.png",
+      "filename" : "splash screen@3x-2.png",
       "minimum-system-version" : "8.0",
       "orientation" : "portrait",
       "scale" : "3x"
@@ -13,7 +41,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "736h",
-      "filename" : "Default-iPhone6plus-Landscape@3x.png",
+      "filename" : "splash screen@3x-3.png",
       "minimum-system-version" : "8.0",
       "orientation" : "landscape",
       "scale" : "3x"
@@ -22,7 +50,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "667h",
-      "filename" : "Default-iPhone6-Portrait@2x.png",
+      "filename" : "splash screen@3x-1.png",
       "minimum-system-version" : "8.0",
       "orientation" : "portrait",
       "scale" : "2x"
@@ -30,7 +58,7 @@
     {
       "orientation" : "portrait",
       "idiom" : "iphone",
-      "filename" : "Default-iPhone-Portrait@2x-1.png",
+      "filename" : "splash screen@3x.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "2x"
@@ -39,7 +67,7 @@
       "extent" : "full-screen",
       "idiom" : "iphone",
       "subtype" : "retina4",
-      "filename" : "Default-iPhone5-Portrait@2x.png",
+      "filename" : "splash screen@2x.png",
       "minimum-system-version" : "7.0",
       "orientation" : "portrait",
       "scale" : "2x"
@@ -47,7 +75,7 @@
     {
       "orientation" : "portrait",
       "idiom" : "ipad",
-      "filename" : "Default-iPad-Portrait-1.png",
+      "filename" : "splash screen@3x-6.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "1x"
@@ -55,7 +83,7 @@
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
-      "filename" : "Default-iPad_Landscape.png",
+      "filename" : "splash screen@3x-8.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "1x"
@@ -63,7 +91,7 @@
     {
       "orientation" : "portrait",
       "idiom" : "ipad",
-      "filename" : "Default-iPad-Portrait@2x.png",
+      "filename" : "splash screen@3x-7.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
       "scale" : "2x"
@@ -71,37 +99,9 @@
     {
       "orientation" : "landscape",
       "idiom" : "ipad",
-      "filename" : "Default-iPad_Landscape@2x.png",
+      "filename" : "splash screen@3x-9.png",
       "extent" : "full-screen",
       "minimum-system-version" : "7.0",
-      "scale" : "2x"
-    },
-    {
-      "orientation" : "portrait",
-      "idiom" : "iphone",
-      "filename" : "Default-iPhone-Portrait.png",
-      "extent" : "full-screen",
-      "scale" : "1x"
-    },
-    {
-      "orientation" : "portrait",
-      "idiom" : "iphone",
-      "filename" : "Default-iPhone-Portrait@2x.png",
-      "extent" : "full-screen",
-      "scale" : "2x"
-    },
-    {
-      "orientation" : "portrait",
-      "idiom" : "ipad",
-      "filename" : "Default-iPad-Portrait.png",
-      "extent" : "full-screen",
-      "scale" : "1x"
-    },
-    {
-      "orientation" : "portrait",
-      "idiom" : "ipad",
-      "filename" : "Default-iPad-Portrait@2x-1.png",
-      "extent" : "full-screen",
       "scale" : "2x"
     }
   ],

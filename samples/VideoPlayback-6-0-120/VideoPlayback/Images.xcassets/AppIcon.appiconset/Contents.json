@@ -14,19 +14,17 @@
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "Icon-76@3x-1.png",
+      "filename" : "Icon-Small-1.png",
       "scale" : "1x"
     },
     {
-      "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "Icon-iPadPro@2x-1.png",
+      "size" : "29x29",
       "scale" : "2x"
     },
     {
-      "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "Icon-Small@3x.png",
+      "size" : "29x29",
       "scale" : "3x"
     },
     {
@@ -56,13 +54,12 @@
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "Icon-iPadPro@2x-2.png",
+      "filename" : "Icon-60@2x.png",
       "scale" : "2x"
     },
     {
-      "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "Icon-60@3x.png",
+      "size" : "60x60",
       "scale" : "3x"
     },
     {
@@ -76,9 +73,8 @@
       "scale" : "2x"
     },
     {
-      "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "Icon-Small.png",
+      "size" : "29x29",
       "scale" : "1x"
     },
     {
@@ -140,14 +136,14 @@
       "scale" : "2x"
     },
     {
-      "size" : "60x60",
       "idiom" : "car",
-      "filename" : "Icon-60@2x-1.png",
+      "size" : "60x60",
       "scale" : "2x"
     },
     {
-      "idiom" : "car",
       "size" : "60x60",
+      "idiom" : "car",
+      "filename" : "Icon-60@3x-1.png",
       "scale" : "3x"
     },
     {
@@ -167,13 +163,14 @@
     {
       "size" : "29x29",
       "idiom" : "watch",
-      "filename" : "Icon-Small@2x-2.png",
+      "filename" : "Icon-Small@2x.png",
       "role" : "companionSettings",
       "scale" : "2x"
     },
     {
       "size" : "29x29",
       "idiom" : "watch",
+      "filename" : "Icon-Small@3x-1.png",
       "role" : "companionSettings",
       "scale" : "3x"
     },
