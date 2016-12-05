@@ -416,6 +416,7 @@
 		4A9D793A1DF49D12003DADC1 /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
+				EA96A0C21DF33CA6001A47BD /* Images.xcassets */,
 				4A9D793E1DF4A55B003DADC1 /* UIColorExtension.swift */,
 				4A9D793F1DF4A55B003DADC1 /* UISetupExtension.swift */,
 				4A9D79391DF49CFE003DADC1 /* Fonts */,
@@ -426,10 +427,8 @@
 		D21B07DD1A1B4AA10041ECF3 = {
 			isa = PBXGroup;
 			children = (
-				EA96A0C21DF33CA6001A47BD /* Images.xcassets */,
-				EAEC1BDB1DF38E7E00704819 /* Samihah */,
-				EAEC1BDA1DF38E7700704819 /* Nicholas */,
-				EAEC1BDC1DF38E8C00704819 /* Daniel */,
+				EAEC1BDC1DF38E8C00704819 /* Memoir */,
+				EAEC1BDA1DF38E7700704819 /* Possibly redundant */,
 				D21B07E71A1B4AA20041ECF3 /* Products */,
 				4A9D793A1DF49D12003DADC1 /* Supporting files */,
 			);
@@ -964,23 +963,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EAEC1BDA1DF38E7700704819 /* Nicholas */ = {
-			isa = PBXGroup;
-			children = (
-				EA8440F51DF38FF70013C699 /* CreateMemoir.storyboard */,
-				EA8440F61DF38FF70013C699 /* Memoir.storyboard */,
-				EA8440F71DF38FF70013C699 /* MemoirViewController.swift */,
-				EA8440F81DF38FF70013C699 /* TriggerViewController.swift */,
-				EA8440F91DF38FF70013C699 /* VideoViewController.swift */,
-				4A9D793C1DF4A2C7003DADC1 /* VideoCollectionViewCell.swift */,
-				4A9D79421DF4AB0E003DADC1 /* CustomImageFlowLayout.swift */,
-				4A9D79441DF4B417003DADC1 /* TriggerCollectionViewCell.swift */,
-			);
-			name = Nicholas;
-			path = VideoPlayback;
-			sourceTree = "<group>";
-		};
-		EAEC1BDB1DF38E7E00704819 /* Samihah */ = {
+		EAEC1BDA1DF38E7700704819 /* Possibly redundant */ = {
 			isa = PBXGroup;
 			children = (
 				EA8440FF1DF390010013C699 /* Onboarding4ViewController.swift */,
@@ -990,12 +973,20 @@
 				EA8441031DF390010013C699 /* Onboarding3ViewController.swift */,
 				EA8441041DF390010013C699 /* Profile.storyboard */,
 				EA8441051DF390010013C699 /* ProfileViewController.swift */,
+				EA8440F51DF38FF70013C699 /* CreateMemoir.storyboard */,
+				EA8440F61DF38FF70013C699 /* Memoir.storyboard */,
+				EA8440F71DF38FF70013C699 /* MemoirViewController.swift */,
+				EA8440F81DF38FF70013C699 /* TriggerViewController.swift */,
+				EA8440F91DF38FF70013C699 /* VideoViewController.swift */,
+				4A9D793C1DF4A2C7003DADC1 /* VideoCollectionViewCell.swift */,
+				4A9D79421DF4AB0E003DADC1 /* CustomImageFlowLayout.swift */,
+				4A9D79441DF4B417003DADC1 /* TriggerCollectionViewCell.swift */,
 			);
-			name = Samihah;
+			name = "Possibly redundant";
 			path = VideoPlayback;
 			sourceTree = "<group>";
 		};
-		EAEC1BDC1DF38E8C00704819 /* Daniel */ = {
+		EAEC1BDC1DF38E8C00704819 /* Memoir */ = {
 			isa = PBXGroup;
 			children = (
 				D21B07E81A1B4AA20041ECF3 /* VideoPlayback */,
@@ -1008,7 +999,7 @@
 				EA7FD16A1DDD7BD500150BFA /* TestViewController.swift */,
 				EA7FD1691DDD7BD400150BFA /* VideoPlayback-Bridging-Header.h */,
 			);
-			name = Daniel;
+			name = Memoir;
 			path = VideoPlayback;
 			sourceTree = "<group>";
 		};
