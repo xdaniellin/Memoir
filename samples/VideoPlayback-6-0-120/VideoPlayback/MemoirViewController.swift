@@ -25,6 +25,8 @@ class MemoirViewController: UIViewController,UICollectionViewDataSource, UIColle
         
         // Do any additional setup after loading the view.
         
+        collectionViewLayout = CustomImageFlowLayout()
+        memoirCollectionView.collectionViewLayout = collectionViewLayout
     }
     
     override func viewDidLayoutSubviews() {

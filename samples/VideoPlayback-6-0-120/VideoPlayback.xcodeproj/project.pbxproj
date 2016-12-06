@@ -17,6 +17,7 @@
 		4A9D79491DF4F4A5003DADC1 /* InviteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9D79481DF4F4A5003DADC1 /* InviteViewController.swift */; };
 		4A9D794B1DF4F59E003DADC1 /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9D794A1DF4F59E003DADC1 /* ContactsTableViewCell.swift */; };
 		4A9D794F1DF50A79003DADC1 /* MemoirCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9D794E1DF50A79003DADC1 /* MemoirCollectionViewCell.swift */; };
+		4ABDC81D1DF63AAD008C620A /* PrintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABDC81C1DF63AAD008C620A /* PrintViewController.swift */; };
 		8F75AE9D1C73E2A50083ADFB /* VuforiaSizzleReel_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8F75AE9C1C73E2A50083ADFB /* VuforiaSizzleReel_1.mp4 */; };
 		8F75AE9F1C73E36F0083ADFB /* VuforiaSizzleReel_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8F75AE9E1C73E36F0083ADFB /* VuforiaSizzleReel_2.mp4 */; };
 		D21B07EC1A1B4AA20041ECF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D21B07EB1A1B4AA20041ECF3 /* main.m */; };
@@ -112,6 +113,7 @@
 		4A9D79481DF4F4A5003DADC1 /* InviteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InviteViewController.swift; sourceTree = "<group>"; };
 		4A9D794A1DF4F59E003DADC1 /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
 		4A9D794E1DF50A79003DADC1 /* MemoirCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoirCollectionViewCell.swift; sourceTree = "<group>"; };
+		4ABDC81C1DF63AAD008C620A /* PrintViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintViewController.swift; sourceTree = "<group>"; };
 		8F75AE9C1C73E2A50083ADFB /* VuforiaSizzleReel_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = VuforiaSizzleReel_1.mp4; path = Resources/Assets/VideoPlayback/VuforiaSizzleReel_1.mp4; sourceTree = "<group>"; };
 		8F75AE9E1C73E36F0083ADFB /* VuforiaSizzleReel_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = VuforiaSizzleReel_2.mp4; path = Resources/Assets/VideoPlayback/VuforiaSizzleReel_2.mp4; sourceTree = "<group>"; };
 		D21B07E61A1B4AA20041ECF3 /* VidPlayback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidPlayback.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -997,6 +999,7 @@
 				EAA193AA1DE694C500495ECC /* menuViewController.swift */,
 				EA7FD16A1DDD7BD500150BFA /* TestViewController.swift */,
 				EA8441051DF390010013C699 /* ProfileViewController.swift */,
+				4ABDC81C1DF63AAD008C620A /* PrintViewController.swift */,
 				EA7FD1691DDD7BD400150BFA /* VideoPlayback-Bridging-Header.h */,
 			);
 			name = Memoir;
@@ -1160,6 +1163,7 @@
 				4A9D79471DF4CBE6003DADC1 /* GalleryTableViewCell.swift in Sources */,
 				EA8440FE1DF38FF70013C699 /* VideoViewController.swift in Sources */,
 				D21B085B1A1B698A0041ECF3 /* SampleApplication3DModel.m in Sources */,
+				4ABDC81D1DF63AAD008C620A /* PrintViewController.swift in Sources */,
 				FB1024ED1A82814000A2536F /* UnwindMenuSegue.m in Sources */,
 				4A9D79451DF4B417003DADC1 /* TriggerCollectionViewCell.swift in Sources */,
 				4A9D79411DF4A55B003DADC1 /* UISetupExtension.swift in Sources */,

@@ -502,25 +502,25 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="WbB-Dg-WZ9">
-                                <rect key="frame" x="0.0" y="420" width="375" height="247"/>
+                                <rect key="frame" x="0.0" y="369" width="375" height="298"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="MVB-sg-prf">
-                                    <size key="itemSize" width="127" height="121"/>
+                                    <size key="itemSize" width="127" height="127"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="memoirCell" id="TcC-gg-nMK" customClass="MemoirCollectionViewCell" customModule="VidPlayback" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="127" height="121"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="127" height="127"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="127" height="121"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="127" height="127"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YFf-8a-otX">
-                                                    <rect key="frame" x="0.0" y="0.0" width="127" height="121"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="127" height="127"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
                                                 </imageView>
@@ -532,11 +532,43 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Contributors" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9rl-oH-F7v">
+                                <rect key="frame" x="8" y="333" width="97" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6u-g4-bzF">
+                                <rect key="frame" x="199" y="333" width="22" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Daniel" translatesAutoresizingMaskIntoConstraints="NO" id="QaR-te-9bz">
+                                <rect key="frame" x="104" y="331" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Nic" translatesAutoresizingMaskIntoConstraints="NO" id="ZIR-As-Vo1">
+                                <rect key="frame" x="135" y="331" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Samihah" translatesAutoresizingMaskIntoConstraints="NO" id="1XS-r3-8Rw">
+                                <rect key="frame" x="166" y="331" width="25" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r5U-Vk-rwg">
+                                <rect key="frame" x="329" y="323" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="printIcon"/>
+                                <connections>
+                                    <segue destination="2xm-xh-UeA" kind="modal" id="3ED-yV-t2Z"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="CodePath Univesity" id="kWC-zb-hV5">
-                        <barButtonItem key="leftBarButtonItem" image="icon_dl_default" id="0nu-Wd-c9K">
+                        <barButtonItem key="leftBarButtonItem" image="back" id="0nu-Wd-c9K">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <segue destination="uMw-yX-W6Q" kind="modal" id="nwZ-rF-26c"/>
@@ -932,10 +964,10 @@
             </objects>
             <point key="canvasLocation" x="839.5" y="-1525"/>
         </scene>
-        <!--View Controller-->
+        <!--Print View Controller-->
         <scene sceneID="ft1-wF-QpC">
             <objects>
-                <viewController id="2xm-xh-UeA" sceneMemberID="viewController">
+                <viewController id="2xm-xh-UeA" customClass="PrintViewController" customModule="VidPlayback" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JHl-Hm-Dcn"/>
                         <viewControllerLayoutGuide type="bottom" id="R2I-kV-xhM"/>
@@ -947,10 +979,15 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TZi-la-zHU">
                                 <rect key="frame" x="169" y="617" width="37" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="SAVE"/>
+                                <state key="normal" title="SAVE">
+                                    <color key="titleColor" red="0.26666666666666666" green="0.63921568627450975" blue="0.63921568627450975" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="onSaveTapped:" destination="2xm-xh-UeA" eventType="touchUpInside" id="e8s-bF-FWf"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.85000002384185791" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Purchase Memoire Trigger" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R3r-aU-pj9">
-                                <rect key="frame" x="16" y="200" width="343" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.85000002384185791" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Purchase Memoir Trigger" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R3r-aU-pj9">
+                                <rect key="frame" x="16" y="200" width="343" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -1038,7 +1075,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.20392156862745098" green="0.20392156862745098" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0wf-iM-6fG" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1048,8 +1085,11 @@
     </scenes>
     <resources>
         <image name="CharlieProfile" width="270" height="270"/>
+        <image name="Daniel" width="46" height="46"/>
         <image name="Dummy2" width="960" height="539"/>
+        <image name="Nic" width="46" height="46"/>
         <image name="Profile_photo" width="100" height="105"/>
+        <image name="Samihah" width="46" height="46"/>
         <image name="VP.png" width="586" height="944"/>
         <image name="back" width="17" height="17"/>
         <image name="blankAvatar" width="46" height="46"/>
@@ -1061,6 +1101,7 @@
         <image name="icons" width="182" height="155"/>
         <image name="inset" width="340" height="1"/>
         <image name="plusIcon" width="46" height="46"/>
+        <image name="printIcon" width="46" height="46"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
