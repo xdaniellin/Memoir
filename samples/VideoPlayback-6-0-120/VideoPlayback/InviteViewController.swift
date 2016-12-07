@@ -27,7 +27,7 @@ class InviteViewController: UIViewController, UITableViewDelegate, UITableViewDa
         // Setup navigation bar colors etc
         navigationController?.navigationBar.barTintColor = UIColor.memoirBlue()
         navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
-    
+        
         // Setup common UI elements:
         setUpUI()
         makeButton.backgroundColor = UIColor.memoirBlue()
@@ -42,17 +42,19 @@ class InviteViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "contactsCell") as! ContactsTableViewCell
-    
+        
         cell.contactLabel?.text = contactsArray[indexPath.row]
-    
+        
         cell.backgroundColor = UIColor.memoirBlack()
         
         if cell.contactLabel.text == "Daniel Lin" {
             cell.contactImage.image = UIImage(named:"Daniel")
         } else if cell.contactLabel.text == "Nicholas Naudé" {
-                   cell.contactImage.image = UIImage(named:"Nic")
+            cell.contactImage.image = UIImage(named:"Nic")
         } else if cell.contactLabel.text == "Samihah" {
             cell.contactImage.image = UIImage(named:"Samihah")
+        } else {
+            cell.contactImage.image = UIImage(named:"blankAvatar")
         }
         return cell
     }
