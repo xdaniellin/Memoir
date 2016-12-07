@@ -390,7 +390,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="83"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1ZM-E8-Ynd" id="kLr-2N-KUb">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="82.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="98m-lk-c4m">
@@ -606,10 +606,10 @@
                             <tableViewSection headerTitle="Video Playback" id="evq-UC-fJn">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SampleMenuCell" id="YBa-JN-5Us">
-                                        <rect key="frame" x="0.0" y="55.5" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="56" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YBa-JN-5Us" id="hev-Yt-Lrj">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wlJ-tQ-Wp7">
@@ -627,10 +627,10 @@
                             <tableViewSection id="dkG-qr-Qr7">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SampleMenuCell" id="RTc-AY-B2m">
-                                        <rect key="frame" x="0.0" y="119.5" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="120" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RTc-AY-B2m" id="gEJ-K4-LFw">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Play Fullscreen" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0x-oR-e8d">
@@ -1141,7 +1141,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="CodePath Univesity" id="NZO-sb-eGI">
-                        <barButtonItem key="leftBarButtonItem" image="dismiss" id="euo-Pj-g4C">
+                        <barButtonItem key="leftBarButtonItem" image="Sdou" id="euo-Pj-g4C">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" image="editIcon" id="z8o-4p-oeI">
@@ -1150,6 +1150,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="existingMemoirCollectionView" destination="OM3-2U-EOi" id="2zO-Fk-nrh"/>
+                        <segue destination="uMw-yX-W6Q" kind="modal" identifier="dismiss Existing Memoir" id="SBd-nU-vSd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="huD-qr-pum" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1164,6 +1165,7 @@
         <image name="Nic" width="46" height="46"/>
         <image name="Profile_photo" width="100" height="105"/>
         <image name="Samihah" width="46" height="46"/>
+        <image name="Sdou" width="182" height="155"/>
         <image name="VP.png" width="586" height="944"/>
         <image name="back" width="17" height="17"/>
         <image name="blankAvatar" width="46" height="46"/>
@@ -1183,6 +1185,6 @@
         <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="nwZ-rF-26c"/>
+        <segue reference="SBd-nU-vSd"/>
     </inferredMetricsTieBreakers>
 </document>

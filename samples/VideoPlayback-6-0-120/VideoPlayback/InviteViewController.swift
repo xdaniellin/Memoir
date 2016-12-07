@@ -46,6 +46,14 @@ class InviteViewController: UIViewController, UITableViewDelegate, UITableViewDa
         cell.contactLabel?.text = contactsArray[indexPath.row]
     
         cell.backgroundColor = UIColor.memoirBlack()
+        
+        if cell.contactLabel.text == "Daniel Lin" {
+            cell.contactImage.image = UIImage(named:"Daniel")
+        } else if cell.contactLabel.text == "Nicholas Naudé" {
+                   cell.contactImage.image = UIImage(named:"Nic")
+        } else if cell.contactLabel.text == "Samihah" {
+            cell.contactImage.image = UIImage(named:"Samihah")
+        }
         return cell
     }
     
