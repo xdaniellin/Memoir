@@ -208,7 +208,7 @@ class TestViewController: UIViewController {
         //AR_viewController.view.frame = contentView.frame.applying(CGAffineTransform .scaledBy(x: 2, y:2))
         AR_viewController.view.layer.anchorPoint = CGPoint(x: 0.5, y: 0)
         AR_viewController.view.frame = contentView.bounds
-        AR_viewController.view.transform = CGAffineTransform(scaleX: 1.07, y:1.07)
+        AR_viewController.view.transform = CGAffineTransform(scaleX: 1.08, y:1.08)
         //AR_viewController.view.frame = contentView.bounds.CGAffineTransform(scaleX: 2.4, y:2.4)
         contentView.addSubview(AR_viewController.view)
         //contentView.center.y += 0
