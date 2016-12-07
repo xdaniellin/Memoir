@@ -75,4 +75,11 @@ class MemoirViewController: UIViewController,UICollectionViewDataSource, UIColle
         return CGSize(width: collectionView.frame.size.width/3.2, height: 100)
     }
     
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath){
+        
+        let cell : UICollectionViewCell = collectionView.cellForItem(at: indexPath as IndexPath)!
+        cell.backgroundColor = UIColor.magenta
+        print(indexPath.row)
+    }
+    
 }
