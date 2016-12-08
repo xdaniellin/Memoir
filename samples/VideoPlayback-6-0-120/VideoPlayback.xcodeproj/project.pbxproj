@@ -65,6 +65,7 @@
 		D8223DBC1D6CF114006884AE /* SampleAppRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = D8223DBB1D6CF114006884AE /* SampleAppRenderer.mm */; };
 		D8223DBF1D6CFC49006884AE /* Background.fragsh in Resources */ = {isa = PBXBuildFile; fileRef = D8223DBD1D6CFC49006884AE /* Background.fragsh */; };
 		D8223DC01D6CFC49006884AE /* Background.vertsh in Resources */ = {isa = PBXBuildFile; fileRef = D8223DBE1D6CFC49006884AE /* Background.vertsh */; };
+		EA2DF2161DF4E19B00C6EC7D /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2DF2151DF4E19B00C6EC7D /* IntroViewController.swift */; };
 		EA63690B1DE155D0005E6B87 /* codepath_dog.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EA63690A1DE155D0005E6B87 /* codepath_dog.mp4 */; };
 		EA7FD16B1DDD7BD500150BFA /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7FD16A1DDD7BD500150BFA /* TestViewController.swift */; };
 		EA7FD16D1DDD7BE800150BFA /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7FD16C1DDD7BE800150BFA /* Common.swift */; };
@@ -189,6 +190,7 @@
 		D8223DBB1D6CF114006884AE /* SampleAppRenderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SampleAppRenderer.mm; path = Classes/SampleApplication/SampleAppRenderer.mm; sourceTree = "<group>"; };
 		D8223DBD1D6CFC49006884AE /* Background.fragsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Background.fragsh; path = Classes/SampleApplication/shaders/Background.fragsh; sourceTree = "<group>"; };
 		D8223DBE1D6CFC49006884AE /* Background.vertsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Background.vertsh; path = Classes/SampleApplication/shaders/Background.vertsh; sourceTree = "<group>"; };
+		EA2DF2151DF4E19B00C6EC7D /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		EA5925E81DC9934300DDE6A6 /* frame-markers-transparent.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "frame-markers-transparent.zip"; sourceTree = "<group>"; };
 		EA5925EC1DC9934300DDE6A6 /* Area.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Area.h; sourceTree = "<group>"; };
 		EA5925ED1DC9934300DDE6A6 /* Box3D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Box3D.h; sourceTree = "<group>"; };
@@ -1047,12 +1049,17 @@
 				4A9D79481DF4F4A5003DADC1 /* InviteViewController.swift */,
 				EAA193AA1DE694C500495ECC /* menuViewController.swift */,
 				EA7FD16A1DDD7BD500150BFA /* TestViewController.swift */,
+<<<<<<< Updated upstream
 				EA8441051DF390010013C699 /* ProfileViewController.swift */,
 				4ABDC81C1DF63AAD008C620A /* PrintViewController.swift */,
 				EA8440F71DF38FF70013C699 /* MemoirViewController.swift */,
 				EA8440F81DF38FF70013C699 /* TriggerViewController.swift */,
 				EA8440F91DF38FF70013C699 /* VideoViewController.swift */,
 				4A04E9381DF7B937003E36D2 /* Onboarding */,
+=======
+				EA2DF2151DF4E19B00C6EC7D /* IntroViewController.swift */,
+				EA7FD1691DDD7BD400150BFA /* VideoPlayback-Bridging-Header.h */,
+>>>>>>> Stashed changes
 			);
 			name = Memoir;
 			path = VideoPlayback;
@@ -1198,6 +1205,7 @@
 				D21B085E1A1B698A0041ECF3 /* SampleApplicationUtils.cpp in Sources */,
 				EA8441081DF390010013C699 /* Onboarding1ViewController.swift in Sources */,
 				EA8440FD1DF38FF70013C699 /* TriggerViewController.swift in Sources */,
+				EA2DF2161DF4E19B00C6EC7D /* IntroViewController.swift in Sources */,
 				EAA193AB1DE694C500495ECC /* menuViewController.swift in Sources */,
 				EA8441091DF390010013C699 /* Onboarding2ViewController.swift in Sources */,
 				4A9D793D1DF4A2C7003DADC1 /* VideoCollectionViewCell.swift in Sources */,
