@@ -14,29 +14,32 @@ class MemoirViewController: UIViewController,UICollectionViewDataSource, UIColle
     
     var memoirImages = [UIImage]()
     let reuseIdentifier = "memoirCell"
-        var collectionViewLayout: CustomImageFlowLayout!
+    var collectionViewLayout: CustomImageFlowLayout!
     
     //Lifecycle methods
     override func viewDidLoad() {
         super.viewDidLoad()
         
         memoirCollectionView.dataSource = self
+        memoirCollectionView.delegate = self
+        
         memoirImages = [UIImage(named:"Dummy1")!, UIImage(named:"Dummy2")!, UIImage(named:"Dummy3")!,UIImage(named:"Dummy4")!,UIImage(named:"Dummy5")!,UIImage(named:"Dummy6")!,UIImage(named:"Dummy7")!]
         
         // Do any additional setup after loading the view.
         
         collectionViewLayout = CustomImageFlowLayout()
         memoirCollectionView.collectionViewLayout = collectionViewLayout
+        
     }
     
     override func viewDidLayoutSubviews() {
-      
+        
         // Setup navigation bar colors etc
         navigationController?.navigationBar.barTintColor = UIColor.memoirBlue()
         navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
         navigationItem.backBarButtonItem = UIBarButtonItem(title:"", style:.plain, target:nil, action:nil)
         navigationItem.backBarButtonItem?.tintColor = UIColor.white
-
+        
         
         navigationController?.isNavigationBarHidden = false
         setUpUI()
@@ -75,11 +78,11 @@ class MemoirViewController: UIViewController,UICollectionViewDataSource, UIColle
         return CGSize(width: collectionView.frame.size.width/3.2, height: 100)
     }
     
-    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath){
-        
-        let cell : UICollectionViewCell = collectionView.cellForItem(at: indexPath as IndexPath)!
-        cell.backgroundColor = UIColor.magenta
-        print(indexPath.row)
+    // register tap on UICollectionviewCell
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print("didSelect")
     }
+    
+    
     
 }
