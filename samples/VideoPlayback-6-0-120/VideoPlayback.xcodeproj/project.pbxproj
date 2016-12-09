@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		18EB63541ACCAB8D00EF1C28 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18EB63531ACCAB8D00EF1C28 /* Localizable.strings */; };
-		4A04E93B1DF7BA20003E36D2 /* onboardingDan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A04E93A1DF7BA20003E36D2 /* onboardingDan.storyboard */; };
 		4A0953331DF7BC8400E44843 /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0953321DF7BC8400E44843 /* Videos.swift */; };
 		4A0953351DF7BCC300E44843 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0953341DF7BCC300E44843 /* IntroViewController.swift */; };
 		4A0953371DF7C25400E44843 /* video_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4A0953361DF7C25400E44843 /* video_2.mp4 */; };
@@ -19,6 +18,13 @@
 		4A0953411DF7C2C800E44843 /* codepath_q_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4A0953401DF7C2C800E44843 /* codepath_q_2.mp4 */; };
 		4A370F881DF7A0A000F8DE6C /* ExisitingMemoirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A370F871DF7A0A000F8DE6C /* ExisitingMemoirViewController.swift */; };
 		4A370F8C1DF7A29800F8DE6C /* ExistingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A370F8B1DF7A29800F8DE6C /* ExistingCollectionViewCell.swift */; };
+		4A536F6A1DF906D0001D6DA6 /* onboardingDan.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A536F691DF906D0001D6DA6 /* onboardingDan.storyboard */; };
+		4A536F751DF90B99001D6DA6 /* CodePath.xml in Resources */ = {isa = PBXBuildFile; fileRef = 4A536F731DF90B99001D6DA6 /* CodePath.xml */; };
+		4A536F761DF90B99001D6DA6 /* CodePath.dat in Resources */ = {isa = PBXBuildFile; fileRef = 4A536F741DF90B99001D6DA6 /* CodePath.dat */; };
+		4A536F791DF90DC1001D6DA6 /* xcode_combined2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4A536F771DF90DC1001D6DA6 /* xcode_combined2.mp4 */; };
+		4A536F7A1DF90DC1001D6DA6 /* xcode_combined1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4A536F781DF90DC1001D6DA6 /* xcode_combined1.mp4 */; };
+		4A536F7D1DF90DD0001D6DA6 /* xcode_charlie_2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4A536F7B1DF90DD0001D6DA6 /* xcode_charlie_2.mp4 */; };
+		4A536F7E1DF90DD0001D6DA6 /* xcode_charlie_1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4A536F7C1DF90DD0001D6DA6 /* xcode_charlie_1.mp4 */; };
 		4A9D793D1DF4A2C7003DADC1 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9D793C1DF4A2C7003DADC1 /* VideoCollectionViewCell.swift */; };
 		4A9D79401DF4A55B003DADC1 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9D793E1DF4A55B003DADC1 /* UIColorExtension.swift */; };
 		4A9D79411DF4A55B003DADC1 /* UISetupExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9D793F1DF4A55B003DADC1 /* UISetupExtension.swift */; };
@@ -65,7 +71,6 @@
 		D8223DBC1D6CF114006884AE /* SampleAppRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = D8223DBB1D6CF114006884AE /* SampleAppRenderer.mm */; };
 		D8223DBF1D6CFC49006884AE /* Background.fragsh in Resources */ = {isa = PBXBuildFile; fileRef = D8223DBD1D6CFC49006884AE /* Background.fragsh */; };
 		D8223DC01D6CFC49006884AE /* Background.vertsh in Resources */ = {isa = PBXBuildFile; fileRef = D8223DBE1D6CFC49006884AE /* Background.vertsh */; };
-		EA2DF2161DF4E19B00C6EC7D /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2DF2151DF4E19B00C6EC7D /* IntroViewController.swift */; };
 		EA63690B1DE155D0005E6B87 /* codepath_dog.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EA63690A1DE155D0005E6B87 /* codepath_dog.mp4 */; };
 		EA7FD16B1DDD7BD500150BFA /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7FD16A1DDD7BD500150BFA /* TestViewController.swift */; };
 		EA7FD16D1DDD7BE800150BFA /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7FD16C1DDD7BE800150BFA /* Common.swift */; };
@@ -84,8 +89,6 @@
 		EA96A0C31DF33CA6001A47BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA96A0C21DF33CA6001A47BD /* Images.xcassets */; };
 		EAA193AB1DE694C500495ECC /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAA193AA1DE694C500495ECC /* menuViewController.swift */; };
 		EAADA63B1DD538F1007DFB2C /* 18_dl_fan.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EAADA63A1DD538A8007DFB2C /* 18_dl_fan.mp4 */; };
-		EAADA63E1DD5525F007DFB2C /* CodePath.dat in Resources */ = {isa = PBXBuildFile; fileRef = EAADA63C1DD5525F007DFB2C /* CodePath.dat */; };
-		EAADA63F1DD5525F007DFB2C /* CodePath.xml in Resources */ = {isa = PBXBuildFile; fileRef = EAADA63D1DD5525F007DFB2C /* CodePath.xml */; };
 		EAADA6481DD552F4007DFB2C /* 18_dl_fan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAADA6461DD552F4007DFB2C /* 18_dl_fan.jpg */; };
 		EAADA64C1DD552FC007DFB2C /* 14_dl_portland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAADA64A1DD552FC007DFB2C /* 14_dl_portland.jpg */; };
 		EAADA64D1DD552FC007DFB2C /* 14_dl_portland.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EAADA64B1DD552FC007DFB2C /* 14_dl_portland.mp4 */; };
@@ -114,7 +117,6 @@
 
 /* Begin PBXFileReference section */
 		18EB63531ACCAB8D00EF1C28 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
-		4A04E9391DF7BA20003E36D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/onboardingDan.storyboard; sourceTree = "<group>"; };
 		4A0953321DF7BC8400E44843 /* Videos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
 		4A0953341DF7BCC300E44843 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		4A0953361DF7C25400E44843 /* video_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video_2.mp4; sourceTree = "<group>"; };
@@ -125,6 +127,13 @@
 		4A0953401DF7C2C800E44843 /* codepath_q_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = codepath_q_2.mp4; sourceTree = "<group>"; };
 		4A370F871DF7A0A000F8DE6C /* ExisitingMemoirViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExisitingMemoirViewController.swift; sourceTree = "<group>"; };
 		4A370F8B1DF7A29800F8DE6C /* ExistingCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExistingCollectionViewCell.swift; sourceTree = "<group>"; };
+		4A536F691DF906D0001D6DA6 /* onboardingDan.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = onboardingDan.storyboard; sourceTree = "<group>"; };
+		4A536F731DF90B99001D6DA6 /* CodePath.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CodePath.xml; sourceTree = "<group>"; };
+		4A536F741DF90B99001D6DA6 /* CodePath.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = CodePath.dat; sourceTree = "<group>"; };
+		4A536F771DF90DC1001D6DA6 /* xcode_combined2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = xcode_combined2.mp4; sourceTree = "<group>"; };
+		4A536F781DF90DC1001D6DA6 /* xcode_combined1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = xcode_combined1.mp4; sourceTree = "<group>"; };
+		4A536F7B1DF90DD0001D6DA6 /* xcode_charlie_2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = xcode_charlie_2.mp4; sourceTree = "<group>"; };
+		4A536F7C1DF90DD0001D6DA6 /* xcode_charlie_1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = xcode_charlie_1.mp4; sourceTree = "<group>"; };
 		4A9D79361DF49CE3003DADC1 /* Bitter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bitter-Bold.ttf"; sourceTree = "<group>"; };
 		4A9D79371DF49CE3003DADC1 /* Bitter-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bitter-Italic.ttf"; sourceTree = "<group>"; };
 		4A9D79381DF49CE3003DADC1 /* Bitter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bitter-Regular.ttf"; sourceTree = "<group>"; };
@@ -190,7 +199,6 @@
 		D8223DBB1D6CF114006884AE /* SampleAppRenderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SampleAppRenderer.mm; path = Classes/SampleApplication/SampleAppRenderer.mm; sourceTree = "<group>"; };
 		D8223DBD1D6CFC49006884AE /* Background.fragsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Background.fragsh; path = Classes/SampleApplication/shaders/Background.fragsh; sourceTree = "<group>"; };
 		D8223DBE1D6CFC49006884AE /* Background.vertsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Background.vertsh; path = Classes/SampleApplication/shaders/Background.vertsh; sourceTree = "<group>"; };
-		EA2DF2151DF4E19B00C6EC7D /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		EA5925E81DC9934300DDE6A6 /* frame-markers-transparent.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "frame-markers-transparent.zip"; sourceTree = "<group>"; };
 		EA5925EC1DC9934300DDE6A6 /* Area.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Area.h; sourceTree = "<group>"; };
 		EA5925ED1DC9934300DDE6A6 /* Box3D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Box3D.h; sourceTree = "<group>"; };
@@ -372,8 +380,6 @@
 		EA96A0C21DF33CA6001A47BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VideoPlayback/Images.xcassets; sourceTree = "<group>"; };
 		EAA193AA1DE694C500495ECC /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
 		EAADA63A1DD538A8007DFB2C /* 18_dl_fan.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 18_dl_fan.mp4; path = Resources/Assets/VideoPlayback/18_dl_fan.mp4; sourceTree = "<group>"; };
-		EAADA63C1DD5525F007DFB2C /* CodePath.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = CodePath.dat; path = Resources/Assets/VideoPlayback/CodePath.dat; sourceTree = "<group>"; };
-		EAADA63D1DD5525F007DFB2C /* CodePath.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = CodePath.xml; path = Resources/Assets/VideoPlayback/CodePath.xml; sourceTree = "<group>"; };
 		EAADA6461DD552F4007DFB2C /* 18_dl_fan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 18_dl_fan.jpg; path = Resources/Assets/VideoPlayback/18_dl_fan.jpg; sourceTree = "<group>"; };
 		EAADA64A1DD552FC007DFB2C /* 14_dl_portland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 14_dl_portland.jpg; path = Resources/Assets/VideoPlayback/14_dl_portland.jpg; sourceTree = "<group>"; };
 		EAADA64B1DD552FC007DFB2C /* 14_dl_portland.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = 14_dl_portland.mp4; path = Resources/Assets/VideoPlayback/14_dl_portland.mp4; sourceTree = "<group>"; };
@@ -434,8 +440,8 @@
 			isa = PBXGroup;
 			children = (
 				4A0953321DF7BC8400E44843 /* Videos.swift */,
+				4A536F691DF906D0001D6DA6 /* onboardingDan.storyboard */,
 				4A0953341DF7BCC300E44843 /* IntroViewController.swift */,
-				4A04E93A1DF7BA20003E36D2 /* onboardingDan.storyboard */,
 				4A0953361DF7C25400E44843 /* video_2.mp4 */,
 				4A09533A1DF7C28C00E44843 /* codepath_onboarding1_2.mp4 */,
 				4A0953381DF7C26500E44843 /* codepath_onboarding3_2.mp4 */,
@@ -615,9 +621,9 @@
 				FBE8C8BD1A8A6EBE001E6858 /* start_medium.png */,
 				EACC6EAC1DE4060600C4C107 /* codepath_drunk.mp4 */,
 				EACC6EAA1DE405FE00C4C107 /* codepath_study.mp4 */,
-				EAADA63C1DD5525F007DFB2C /* CodePath.dat */,
-				EAADA63D1DD5525F007DFB2C /* CodePath.xml */,
 				EAEFA7D91DE691C200D57248 /* idktest2.jpg */,
+				4A536F731DF90B99001D6DA6 /* CodePath.xml */,
+				4A536F741DF90B99001D6DA6 /* CodePath.dat */,
 				FBE8C8BE1A8A6EBE001E6858 /* StonesAndChips.dat */,
 				FBE8C8BF1A8A6EBE001E6858 /* StonesAndChips.xml */,
 				EAADA6461DD552F4007DFB2C /* 18_dl_fan.jpg */,
@@ -630,6 +636,10 @@
 				FBE8C8C21A8A6EBE001E6858 /* VuforiaSizzleReel_1.png */,
 				FBE8C8C41A8A6EBE001E6858 /* VuforiaSizzleReel_2.png */,
 				8F75AE9E1C73E36F0083ADFB /* VuforiaSizzleReel_2.mp4 */,
+				4A536F771DF90DC1001D6DA6 /* xcode_combined2.mp4 */,
+				4A536F7B1DF90DD0001D6DA6 /* xcode_charlie_2.mp4 */,
+				4A536F7C1DF90DD0001D6DA6 /* xcode_charlie_1.mp4 */,
+				4A536F781DF90DC1001D6DA6 /* xcode_combined1.mp4 */,
 			);
 			name = VideoPlayback;
 			sourceTree = "<group>";
@@ -1049,17 +1059,12 @@
 				4A9D79481DF4F4A5003DADC1 /* InviteViewController.swift */,
 				EAA193AA1DE694C500495ECC /* menuViewController.swift */,
 				EA7FD16A1DDD7BD500150BFA /* TestViewController.swift */,
-<<<<<<< Updated upstream
 				EA8441051DF390010013C699 /* ProfileViewController.swift */,
 				4ABDC81C1DF63AAD008C620A /* PrintViewController.swift */,
 				EA8440F71DF38FF70013C699 /* MemoirViewController.swift */,
 				EA8440F81DF38FF70013C699 /* TriggerViewController.swift */,
 				EA8440F91DF38FF70013C699 /* VideoViewController.swift */,
 				4A04E9381DF7B937003E36D2 /* Onboarding */,
-=======
-				EA2DF2151DF4E19B00C6EC7D /* IntroViewController.swift */,
-				EA7FD1691DDD7BD400150BFA /* VideoPlayback-Bridging-Header.h */,
->>>>>>> Stashed changes
 			);
 			name = Memoir;
 			path = VideoPlayback;
@@ -1107,7 +1112,7 @@
 				TargetAttributes = {
 					D21B07E51A1B4AA20041ECF3 = {
 						CreatedOnToolsVersion = 6.1;
-						DevelopmentTeam = 7PX37ZY9M9;
+						DevelopmentTeam = 529Q78MB7D;
 						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
@@ -1147,7 +1152,6 @@
 				4A09533D1DF7C2A100E44843 /* codepath_onboarding2_2.mp4 in Resources */,
 				FBEFAEC81A8283F8002B4D62 /* Main.storyboard in Resources */,
 				EA63690B1DE155D0005E6B87 /* codepath_dog.mp4 in Resources */,
-				EAADA63F1DD5525F007DFB2C /* CodePath.xml in Resources */,
 				FBE8C8D01A8A6EBE001E6858 /* VuforiaSizzleReel_1.png in Resources */,
 				EAADA64C1DD552FC007DFB2C /* 14_dl_portland.jpg in Resources */,
 				EAADA6481DD552F4007DFB2C /* 18_dl_fan.jpg in Resources */,
@@ -1156,11 +1160,13 @@
 				FBE8C8C91A8A6EBE001E6858 /* start_large.png in Resources */,
 				EA8440FA1DF38FF70013C699 /* CreateMemoir.storyboard in Resources */,
 				EA96A0C31DF33CA6001A47BD /* Images.xcassets in Resources */,
+				4A536F7D1DF90DD0001D6DA6 /* xcode_charlie_2.mp4 in Resources */,
 				4A0953411DF7C2C800E44843 /* codepath_q_2.mp4 in Resources */,
 				EA8440FB1DF38FF70013C699 /* Memoir.storyboard in Resources */,
 				D21B08671A1B69A10041ECF3 /* Simple.fragsh in Resources */,
 				EACC6EAD1DE4060600C4C107 /* codepath_drunk.mp4 in Resources */,
 				8F75AE9F1C73E36F0083ADFB /* VuforiaSizzleReel_2.mp4 in Resources */,
+				4A536F6A1DF906D0001D6DA6 /* onboardingDan.storyboard in Resources */,
 				FBE8C8C71A8A6EBE001E6858 /* icon_play.png in Resources */,
 				4A0953371DF7C25400E44843 /* video_2.mp4 in Resources */,
 				4A09533B1DF7C28C00E44843 /* codepath_onboarding1_2.mp4 in Resources */,
@@ -1173,15 +1179,18 @@
 				FBE8C8CB1A8A6EBE001E6858 /* start_medium.png in Resources */,
 				EAADA64D1DD552FC007DFB2C /* 14_dl_portland.mp4 in Resources */,
 				8F75AE9D1C73E2A50083ADFB /* VuforiaSizzleReel_1.mp4 in Resources */,
+				4A536F761DF90B99001D6DA6 /* CodePath.dat in Resources */,
+				4A536F751DF90B99001D6DA6 /* CodePath.xml in Resources */,
 				D21B08661A1B69A10041ECF3 /* Line.vertsh in Resources */,
+				4A536F7E1DF90DD0001D6DA6 /* xcode_charlie_1.mp4 in Resources */,
 				4A09533F1DF7C2B500E44843 /* codepath_onboardingALL_2.mp4 in Resources */,
+				4A536F7A1DF90DC1001D6DA6 /* xcode_combined1.mp4 in Resources */,
 				FBE8C8CC1A8A6EBE001E6858 /* StonesAndChips.dat in Resources */,
-				EAADA63E1DD5525F007DFB2C /* CodePath.dat in Resources */,
 				FBE8C8D21A8A6EBE001E6858 /* VuforiaSizzleReel_2.png in Resources */,
+				4A536F791DF90DC1001D6DA6 /* xcode_combined2.mp4 in Resources */,
 				18EB63541ACCAB8D00EF1C28 /* Localizable.strings in Resources */,
 				4A0953391DF7C26500E44843 /* codepath_onboarding3_2.mp4 in Resources */,
 				EA8441071DF390010013C699 /* Onboarding.storyboard in Resources */,
-				4A04E93B1DF7BA20003E36D2 /* onboardingDan.storyboard in Resources */,
 				FBE8C8C61A8A6EBE001E6858 /* icon_loading.png in Resources */,
 				D21B08651A1B69A10041ECF3 /* Line.fragsh in Resources */,
 				FBE8C8CD1A8A6EBE001E6858 /* StonesAndChips.xml in Resources */,
@@ -1205,7 +1214,6 @@
 				D21B085E1A1B698A0041ECF3 /* SampleApplicationUtils.cpp in Sources */,
 				EA8441081DF390010013C699 /* Onboarding1ViewController.swift in Sources */,
 				EA8440FD1DF38FF70013C699 /* TriggerViewController.swift in Sources */,
-				EA2DF2161DF4E19B00C6EC7D /* IntroViewController.swift in Sources */,
 				EAA193AB1DE694C500495ECC /* menuViewController.swift in Sources */,
 				EA8441091DF390010013C699 /* Onboarding2ViewController.swift in Sources */,
 				4A9D793D1DF4A2C7003DADC1 /* VideoCollectionViewCell.swift in Sources */,
@@ -1247,15 +1255,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4A04E93A1DF7BA20003E36D2 /* onboardingDan.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4A04E9391DF7BA20003E36D2 /* Base */,
-			);
-			name = onboardingDan.storyboard;
-			path = ../../../../../../Downloads/TestVideo/TestVideo;
-			sourceTree = "<group>";
-		};
 		EA5926831DC9934300DDE6A6 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1379,14 +1378,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 9;
-				DEVELOPMENT_TEAM = 7PX37ZY9M9;
+				DEVELOPMENT_TEAM = 529Q78MB7D;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = ../../build/include;
 				INFOPLIST_FILE = "VideoPlayback/VideoPlayback-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = ../../build/lib/arm;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vuhforia.sample.VidPlayback.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vuhforialz.sample.VidPlayback.dev;
 				PRODUCT_NAME = VidPlayback;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "VideoPlayback/VideoPlayback-Bridging-Header.h";
@@ -1408,14 +1407,14 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 9;
-				DEVELOPMENT_TEAM = 7PX37ZY9M9;
+				DEVELOPMENT_TEAM = 529Q78MB7D;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = ../../build/include;
 				INFOPLIST_FILE = "VideoPlayback/VideoPlayback-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = ../../build/lib/arm;
-				PRODUCT_BUNDLE_IDENTIFIER = com.vuhforia.sample.VidPlayback.dev;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vuhforialz.sample.VidPlayback.dev;
 				PRODUCT_NAME = VideoPlayback;
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "VideoPlayback/VideoPlayback-Bridging-Header.h";

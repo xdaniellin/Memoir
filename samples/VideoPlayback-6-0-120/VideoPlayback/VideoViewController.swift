@@ -12,10 +12,16 @@ class VideoViewController: UIViewController, UICollectionViewDataSource, UIColle
     
     @IBOutlet weak var videosCollectionView: UICollectionView!
     @IBOutlet weak var createButton: UIButton!
+    @IBOutlet var tapView: UIView?
     
+    var count = 0
     let reuseIdentifier = "videoCell"
     var videoImages = [UIImage]()
     var collectionViewLayout: CustomImageFlowLayout!
+    let tapRec = UITapGestureRecognizer()
+    var tickMarkImages = [UIImage]()
+    var tickMarkArray = [UIImageView]()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,8 +30,13 @@ class VideoViewController: UIViewController, UICollectionViewDataSource, UIColle
         videosCollectionView.dataSource = self
         videoImages = [UIImage(named: "Dummy1")!, UIImage(named: "Dummy2")!, UIImage(named: "Dummy3")!, UIImage(named: "Dummy4")!, UIImage(named: "Dummy5")!, UIImage(named: "Dummy6")!, UIImage(named: "Dummy7")!, UIImage(named: "Dummy8")!, UIImage(named: "Dummy9")!, UIImage(named: "Dummy10")!, UIImage(named: "Dummy11")!, UIImage(named: "Dummy12")!, UIImage(named: "Dummy13")!, UIImage(named: "Dummy14")!, UIImage(named: "Dummy15")!, UIImage(named: "Dummy16")!, UIImage(named: "Dummy17")!, UIImage(named: "Dummy18")!, UIImage(named: "Dummy19")!, UIImage(named: "Dummy20")!, UIImage(named: "Dummy21")!]
         
+        
+        tickMarkImages = [UIImage(named: "transparent")!, UIImage(named: "tickMark")!, UIImage(named: "transparent")!, UIImage(named: "transparent")!, UIImage(named: "tickMark")!, UIImage(named: "transparent")!, UIImage(named: "transparent")!, UIImage(named: "tickMark")!, UIImage(named: "tickMark")!, UIImage(named: "transparent")!, UIImage(named: "transparent")!, UIImage(named: "transparent")!, UIImage(named: "transparent")!, UIImage(named: "transparent")!, UIImage(named: "transparent")!, UIImage(named: "transparent")!, UIImage(named: "transparent")!, UIImage(named: "transparent")!, UIImage(named: "transparent")!, UIImage(named: "transparent")!, UIImage(named: "transparent")!]
+        
         collectionViewLayout = CustomImageFlowLayout()
         videosCollectionView.collectionViewLayout = collectionViewLayout
+        
+        tapRec.addTarget(self, action: Selector(("onTapGestureRecognised")))
         
     }
     
@@ -36,8 +47,8 @@ class VideoViewController: UIViewController, UICollectionViewDataSource, UIColle
         navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.white]
         navigationItem.backBarButtonItem = UIBarButtonItem(title:"", style:.plain, target:nil, action:nil)
         navigationItem.backBarButtonItem?.tintColor = UIColor.white
-
-
+        
+        
         // Setup common UI elements:
         setUpUI()
         createButton.backgroundColor = UIColor.memoirBlue()
@@ -60,6 +71,25 @@ class VideoViewController: UIViewController, UICollectionViewDataSource, UIColle
         
         // Use the outlet in our custom class to get a reference to the UILabel in the cell
         cell.videoImage.image = self.videoImages[indexPath.item]
+        cell.tickMarkImageView.image = self.tickMarkImages[indexPath.item]
+        
+        if indexPath.item == 1 {
+            cell.tickMarkImageView.alpha = 0
+            tickMarkArray.append(cell.tickMarkImageView)
+        }
+        if indexPath.item == 4 {
+            cell.tickMarkImageView.alpha = 0
+            tickMarkArray.append(cell.tickMarkImageView)
+        }
+        if indexPath.item == 7 {
+            cell.tickMarkImageView.alpha = 0
+            tickMarkArray.append(cell.tickMarkImageView)
+        }
+        if indexPath.item == 8 {
+            cell.tickMarkImageView.alpha = 0
+            tickMarkArray.append(cell.tickMarkImageView)
+        }
+
         return cell
     }
     
@@ -73,9 +103,22 @@ class VideoViewController: UIViewController, UICollectionViewDataSource, UIColle
     {
         return CGSize(width: collectionView.frame.size.width/3.2, height: 100)
     }
-
+    
     @IBAction func onBackArrowTapped(_ sender: UIBarButtonItem) {
         navigationController?.popToRootViewController(animated: true)
     }
+    
+    @IBAction func onTapGestureRecognised(_ sender: UITapGestureRecognizer) {
+        
+        
+        if case let ok = tickMarkArray[count] {
+            tickMarkArray[count].alpha = 1
+        }
+        if count < 3 {
+            count += 1
+        }
+        
+    }
+    
     
 }

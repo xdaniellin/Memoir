@@ -22,7 +22,7 @@ class ExisitingMemoirViewController: UIViewController,UICollectionViewDataSource
         super.viewDidLoad()
         
         existingMemoirCollectionView.dataSource = self
-        existingMemoirImages = [UIImage(named:"Dummy1")!, UIImage(named:"Dummy2")!, UIImage(named:"Dummy3")!,UIImage(named:"Dummy4")!,UIImage(named:"Dummy5")!,UIImage(named:"Dummy6")!,UIImage(named:"Dummy7")!]
+        existingMemoirImages = [UIImage(named:  "Dummy2")!, UIImage(named:  "Dummy8")!, UIImage(named:  "Dummy5")!, UIImage(named: "Dummy9")!]
         
         // Do any additional setup after loading the view.
         
@@ -68,7 +68,8 @@ class ExisitingMemoirViewController: UIViewController,UICollectionViewDataSource
     
     // Perform segue method:
     func dismissSegue(sender: UIBarButtonItem) {
-        shouldPerformSegue(withIdentifier: "dismiss Existing Memoir", sender: self)
+        shouldPerformSegue(withIdentifier: "dismissExistingMemoir", sender: self)
+        dismiss(animated: true, completion: nil)
     }
     
     

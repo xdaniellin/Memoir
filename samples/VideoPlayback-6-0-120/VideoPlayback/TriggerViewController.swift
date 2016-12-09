@@ -10,6 +10,7 @@ import UIKit
 
 class TriggerViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate{
     
+    @IBOutlet weak var noMemoirSelectedButton: UIButton!
     @IBOutlet weak var selectedTrigger: UIImageView!
     @IBOutlet weak var triggerCollectionView: UICollectionView!
     @IBOutlet weak var nextButton: UIButton!
@@ -74,6 +75,11 @@ class TriggerViewController: UIViewController, UICollectionViewDataSource, UICol
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize
     {
         return CGSize(width: collectionView.frame.size.width/3.2, height: 100)
+    }
+    
+    @IBAction func onAddTriggerButtonTapped(_ sender: UIButton) {
+        selectedTrigger.image = UIImage(named: "Dummy8")
+        noMemoirSelectedButton.alpha = 0
     }
     
     @IBAction func onCancelTapped(_ sender: UIBarButtonItem) {

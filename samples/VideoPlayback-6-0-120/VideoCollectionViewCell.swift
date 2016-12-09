@@ -10,6 +10,8 @@ import UIKit
 
 class VideoCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var tickMarkImageView: UIImageView!
+    
     @IBOutlet weak var videoImage: UIImageView!
     
     override func prepareForReuse() {

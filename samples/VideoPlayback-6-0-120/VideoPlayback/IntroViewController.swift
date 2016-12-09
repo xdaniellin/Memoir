@@ -1,6 +1,5 @@
 //
 //  IntroViewController.swift
-<<<<<<< Updated upstream
 //  TestVideo
 //
 //  Created by Daniel Lin on 12/4/16.
@@ -170,30 +169,11 @@ class IntroViewController: UIViewController, UIScrollViewDelegate {
     }
     
     
-=======
-//  VideoPlayback
-//
-//  Created by Daniel Lin on 12/4/16.
-//  Copyright © 2016 Qualcomm. All rights reserved.
-//
-
-import UIKit
-
-class IntroViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
->>>>>>> Stashed changes
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-<<<<<<< Updated upstream
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         
         let x = scrollView.contentOffset.x
@@ -486,17 +466,4 @@ class IntroViewController: UIViewController {
         view.addMotionEffect(group)
     }
     
-=======
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
->>>>>>> Stashed changes
 }

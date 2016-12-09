@@ -122,13 +122,13 @@ class TestViewController: UIViewController {
                 if new_numberOfVideos == 0 {
                     self.createScanner()
                     self.destroyProgressBars()
-                    self.main_label.text = "Searching"
+                    self.main_label.text = "Searching..."
                     self.ui_button.setImage(UIImage(named: "icon_dl_default"), for: UIControlState.normal)
                 }
                 else {
                     self.createProgressBars(numberOfVideos: new_numberOfVideos)
                     self.destroyScanner()
-                    self.main_label.text = "Columbia 2016"
+                    self.main_label.text = "CodePath Memories"
                     self.ui_button.setImage(UIImage(named: "icon_dl_pause"), for: UIControlState.normal)
                 }
                 self.numberOfVideos = new_numberOfVideos
@@ -208,7 +208,7 @@ class TestViewController: UIViewController {
         //AR_viewController.view.frame = contentView.frame.applying(CGAffineTransform .scaledBy(x: 2, y:2))
         AR_viewController.view.layer.anchorPoint = CGPoint(x: 0.5, y: 0)
         AR_viewController.view.frame = contentView.bounds
-        AR_viewController.view.transform = CGAffineTransform(scaleX: 1.08, y:1.08)
+        AR_viewController.view.transform = CGAffineTransform(scaleX: 1.07, y:1.07)
         //AR_viewController.view.frame = contentView.bounds.CGAffineTransform(scaleX: 2.4, y:2.4)
         contentView.addSubview(AR_viewController.view)
         //contentView.center.y += 0

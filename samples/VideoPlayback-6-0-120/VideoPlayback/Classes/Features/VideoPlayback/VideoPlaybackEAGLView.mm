@@ -95,8 +95,9 @@ namespace {
     int touchedTarget = 0;
     
     //DL: Custom global vars
-    int list_version1[5] = { 0, 1, 2, 1, 0 }; // portland
-    int list_version2[5] = { 1, 0, 2, 1, 0 }; // fan
+    int list_version1[4] = { 5, 6, 7, 8 }; // codepath
+    int list_version2[5] = { 1, 0, 2, 1, 0 }; // kingsley
+    int list_version3[1] = { 1 }; // fan
     int current_index = 0;
     int arrayLength = 0;
     int current_listOfVideos [] = {};
@@ -241,8 +242,20 @@ namespace {
             case 4:
                 filename = @"codepath_study.mp4";
                 break;
+            case 5:
+                filename = @"xcode_charlie_1.mp4";
+                break;
+            case 6:
+                filename = @"xcode_combined1.mp4";
+                break;
+            case 7:
+                filename = @"xcode_charlie_2.mp4";
+                break;
+            case 8:
+                filename = @"xcode_combined2.mp4";
+                break;
             default:
-                filename = @"14_dl_portland.mp4";
+                filename = @"18_dl_fan.mp4";
                 break;
         }
         
@@ -558,11 +571,22 @@ namespace {
             playerIndex = list_version1[current_index];
         } // portland
 
-        if(imageTarget.getId() == 2) {
+        if(imageTarget.getId() == 3) {
             printf("FAN DETECTED!!! \n");
-            //memcpy(current_listOfVideos, list_version2, sizeof(list_version2));
-            playerIndex = 1;// + current_index;
-            //current_listOfVideos = list_version2;
+            arrayLength = sizeof(list_version3)/sizeof(list_version3[0]);
+            
+            NSDictionary *dict = [NSDictionary dictionaryWithObject:@(arrayLength) forKey:@"numberOfVideos"];
+            [[NSNotificationCenter defaultCenter] postNotificationName:@"scanOn"
+                                                                object:nil
+                                                              userInfo:dict];
+            
+            printf("PORTLAND DETECTED!!! \n");
+            
+            if(current_index >= arrayLength){
+                current_index = 0;
+            }
+            //printf("Why is this crashing? current_index: %u\n", current_index);
+            playerIndex = list_version3[current_index];
         } // fan
         
         
