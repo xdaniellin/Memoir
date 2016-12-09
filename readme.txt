@@ -1,5 +1,5 @@
 Vuforia Augmented Reality SDK Release Package
-=============================================
+==============================================
 
 
 This package has the following structure:
